@@ -9,6 +9,7 @@ import {
   Scale,
   Sparkles,
 } from "lucide-react";
+import Link from "next/link";
 
 type Theme = { name: string; count: number; interpretation: string };
 type Question = {
@@ -223,6 +224,7 @@ export default function Home() {
           <a href="#findings">Findings</a>
           <a href="#method">Method</a>
           <a href="#next">Next steps</a>
+          <Link href="/responses/">All responses</Link>
         </nav>
       </header>
 
