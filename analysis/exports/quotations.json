@@ -1,0 +1,319 @@
+[
+  {
+    "id": "R01-Q01",
+    "quote": "domestic issues take precedence.",
+    "areas_quote": "domestic issues take precedence.",
+    "themes": [
+      "Workload",
+      "Funding",
+      "Institutional priorities"
+    ]
+  },
+  {
+    "id": "R01-Q02",
+    "quote": "a natural and straightforward part",
+    "areas_quote": "a natural and straightforward part",
+    "themes": [
+      "Curriculum integration"
+    ]
+  },
+  {
+    "id": "R01-Q03",
+    "quote": "time within our studies and work commitments",
+    "areas_quote": "time within our studies and work commitments",
+    "themes": [
+      "Protected time",
+      "Partnerships"
+    ]
+  },
+  {
+    "id": "R02-Q01",
+    "quote": "sometimes lack of funding for travels",
+    "areas_quote": "sometimes lack of funding for travels",
+    "themes": [
+      "Workload",
+      "Funding"
+    ]
+  },
+  {
+    "id": "R02-Q02",
+    "quote": "preferably face-to-face exchange",
+    "areas_quote": "preferably face-to-face exchange",
+    "themes": [
+      "Mobility",
+      "Context and plurality"
+    ]
+  },
+  {
+    "id": "R02-Q03",
+    "quote": "give teachers/researchers time in their schedule",
+    "areas_quote": "give teachers/researchers time in their schedule",
+    "themes": [
+      "Protected time",
+      "Funding",
+      "Administrative support"
+    ]
+  },
+  {
+    "id": "R03-Q01",
+    "quote": "the teaching language in our institution is the national language.",
+    "areas_quote": "the teaching language in our institution is the national language.",
+    "themes": [
+      "Language"
+    ]
+  },
+  {
+    "id": "R03-Q02",
+    "quote": "elective courses that are co-developed by the participating universities",
+    "areas_quote": "elective courses that are co-developed by the participating universities",
+    "themes": [
+      "Joint courses",
+      "Hybrid learning",
+      "Language"
+    ]
+  },
+  {
+    "id": "R03-Q03",
+    "quote": "developing these courses and test them out.",
+    "areas_quote": "developing these courses and test them out.",
+    "themes": [
+      "Funding",
+      "Course pilots"
+    ]
+  },
+  {
+    "id": "R04-Q01",
+    "quote": "English-speaking academics gets interpretation priority.",
+    "areas_quote": "English-speaking academics gets interpretation priority.",
+    "themes": [
+      "Language",
+      "Context and plurality",
+      "Institutional priorities"
+    ]
+  },
+  {
+    "id": "R04-Q02",
+    "quote": "plurality for many voices",
+    "areas_quote": "plurality for many voices",
+    "themes": [
+      "Context and plurality",
+      "Academic freedom"
+    ]
+  },
+  {
+    "id": "R04-Q03",
+    "quote": "an organisational and administrative structure",
+    "areas_quote": "an organisational and administrative structure",
+    "themes": [
+      "Leadership",
+      "Administrative support",
+      "Partnerships"
+    ]
+  },
+  {
+    "id": "R05-Q01",
+    "quote": "family or other obligations at home",
+    "areas_quote": "family or other obligations at home",
+    "themes": [
+      "Language",
+      "Curriculum constraints",
+      "Care and motivation"
+    ]
+  },
+  {
+    "id": "R05-Q02",
+    "quote": "Visits from abroad both of teachers and students",
+    "areas_quote": "Visits from abroad both of teachers and students",
+    "themes": [
+      "Mobility",
+      "Partnerships"
+    ]
+  },
+  {
+    "id": "R05-Q03",
+    "quote": "Close partnerships with other institutions",
+    "areas_quote": "Close partnerships with other institutions",
+    "themes": [
+      "Partnerships"
+    ]
+  },
+  {
+    "id": "R06-Q01",
+    "quote": "the main barriers are funding and time.",
+    "areas_quote": "the main barriers are funding and time.",
+    "themes": [
+      "Workload",
+      "Funding",
+      "Meaning of internationalisation"
+    ]
+  },
+  {
+    "id": "R06-Q02",
+    "quote": "Collaborative learning, sharing experiences",
+    "areas_quote": "Collaborative learning, sharing experiences",
+    "themes": [
+      "Shared learning",
+      "Context and plurality"
+    ]
+  },
+  {
+    "id": "R06-Q03",
+    "quote": "knowledge and capacity to handle the administrative work",
+    "areas_quote": "knowledge and capacity to handle the administrative work",
+    "themes": [
+      "Administrative support",
+      "Protected time",
+      "Partnerships"
+    ]
+  },
+  {
+    "id": "R07-Q01",
+    "quote": "everyone, students and staff, are too stressed.",
+    "areas_quote": "everyone, students and staff, are too stressed.",
+    "themes": [
+      "Workload",
+      "Curriculum constraints",
+      "Care and motivation"
+    ]
+  },
+  {
+    "id": "R07-Q02",
+    "quote": "very much as it is formulated already",
+    "areas_quote": "very much as it is formulated already",
+    "themes": [
+      "Curriculum integration",
+      "Mobility",
+      "Shared learning"
+    ]
+  },
+  {
+    "id": "R07-Q03",
+    "quote": "Maybe make it mandatory, or part of our curricula",
+    "areas_quote": "Maybe make it mandatory, or part of our curricula",
+    "themes": [
+      "Curriculum integration",
+      "Shared rules"
+    ]
+  },
+  {
+    "id": "R08-Q01",
+    "quote": "one of the biggest barriers to internationalisation is the timetable itself.",
+    "areas_quote": "one of the biggest barriers to internationalisation is the timetable itself.",
+    "themes": [
+      "Workload",
+      "Curriculum constraints",
+      "Coordination"
+    ]
+  },
+  {
+    "id": "R08-Q02",
+    "quote": "assessed and recognised as ECTS based on discussion and agreement between two institutions.",
+    "areas_quote": "assessed and recognised as ECTS based on discussion and agreement between two institutions.",
+    "themes": [
+      "Coordination",
+      "Credit recognition",
+      "Curriculum integration",
+      "Mobility"
+    ]
+  },
+  {
+    "id": "R08-Q03",
+    "quote": "not only during this project periods but on an ongoing basis.",
+    "areas_quote": "not only during this project periods but on an ongoing basis.",
+    "themes": [
+      "Coordination",
+      "Protected time",
+      "Administrative support"
+    ]
+  },
+  {
+    "id": "R09-Q01",
+    "quote": "finding the money is a constant struggle.",
+    "areas_quote": "finding the money is a constant struggle.",
+    "themes": [
+      "Workload",
+      "Funding",
+      "Leadership"
+    ]
+  },
+  {
+    "id": "R09-Q02",
+    "quote": "just a few times per academic year",
+    "areas_quote": "just a few times per academic year",
+    "themes": [
+      "Curriculum integration",
+      "Hybrid learning",
+      "Shared learning"
+    ]
+  },
+  {
+    "id": "R09-Q03",
+    "quote": "Beyond embedding small elements into our courses on our own initiative",
+    "areas_quote": "Beyond embedding small elements into our courses on our own initiative",
+    "themes": [
+      "Course pilots",
+      "Funding",
+      "Protected time"
+    ]
+  },
+  {
+    "id": "R10-Q01",
+    "quote": "we are not priority",
+    "areas_quote": "we are not priority",
+    "themes": [
+      "Workload",
+      "Institutional priorities"
+    ]
+  },
+  {
+    "id": "R10-Q02",
+    "quote": "as a part of their employment",
+    "areas_quote": "as a part of their employment",
+    "themes": [
+      "Coordination",
+      "Protected time",
+      "Curriculum integration"
+    ]
+  },
+  {
+    "id": "R10-Q03",
+    "quote": "short workshops presented in different time slots",
+    "areas_quote": "short workshops presented in different time slots",
+    "themes": [
+      "Digital infrastructure",
+      "Shared learning",
+      "Mobility"
+    ]
+  },
+  {
+    "id": "R11-Q01",
+    "quote": "We also promote internationality remotely and at home through various projects",
+    "areas_quote": "We also promote internationality remotely and at home through various projects",
+    "themes": [
+      "Care and motivation",
+      "Workload",
+      "Language",
+      "Access alternatives"
+    ]
+  },
+  {
+    "id": "R11-Q02",
+    "quote": "if they cannot go, they would actively participate in distance sessions",
+    "areas_quote": "if they cannot go, they would actively participate in distance sessions",
+    "themes": [
+      "Mobility",
+      "Access alternatives",
+      "Shared learning"
+    ]
+  },
+  {
+    "id": "R11-Q03",
+    "quote": "However, the barriers remain the same",
+    "areas_quote": "However, the barriers remain the same",
+    "themes": [
+      "Care and motivation",
+      "Access alternatives",
+      "Course pilots"
+    ]
+  }
+]

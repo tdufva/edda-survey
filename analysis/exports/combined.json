@@ -1,0 +1,1483 @@
+[
+  {
+    "id": "R01-Q01",
+    "respondent_id": "R01",
+    "question_id": "Q01",
+    "original_response": "The fact that there is no time allocated in our service planning is largely due to financial considerations. This prioritisation means that domestic issues take precedence.",
+    "dator_primary": "Unclear / Not classifiable",
+    "dator_secondary": [],
+    "dator_confidence": "Low",
+    "dator_rationale": "Describes current allocation and priorities, without a future trajectory. Scarcity alone is not Collapse.",
+    "dator_quote": "domestic issues take precedence.",
+    "meaning_units": [
+      {
+        "text": "The fact that there is no time allocated in our service planning is largely due to financial considerations. This prioritisation means that domestic issues take precedence.",
+        "dator_codes": [],
+        "rationale": "Describes current allocation and priorities, without a future trajectory. Scarcity alone is not Collapse."
+      }
+    ],
+    "areas_primary": "Shaped",
+    "areas_secondary": [],
+    "areas_confidence": "High",
+    "areas_rationale": "Staff have no allocated time; financial prioritisation sets the limits of their international work.",
+    "areas_quote": "domestic issues take precedence.",
+    "areas_scope": "Reported",
+    "areas_scale": "Local",
+    "themes": [
+      "Workload",
+      "Funding",
+      "Institutional priorities"
+    ],
+    "researcher_validated": false,
+    "researcher_notes": "",
+    "origin": "AI interpretation",
+    "coded_at": "2026-09-10",
+    "matrix_position": []
+  },
+  {
+    "id": "R01-Q02",
+    "respondent_id": "R01",
+    "question_id": "Q02",
+    "original_response": "That internationalisation is a natural and straightforward part of students’ studies and of lecturers’ course responsibilities.",
+    "dator_primary": "Continued Growth",
+    "dator_secondary": [],
+    "dator_confidence": "High",
+    "dator_rationale": "Makes internationalisation an ordinary part of existing study and teaching responsibilities; the institutional model continues.",
+    "dator_quote": "a natural and straightforward part",
+    "meaning_units": [
+      {
+        "text": "That internationalisation is a natural and straightforward part of students’ studies and of lecturers’ course responsibilities.",
+        "dator_codes": [
+          "Continued Growth"
+        ],
+        "rationale": "Makes internationalisation an ordinary part of existing study and teaching responsibilities; the institutional model continues."
+      }
+    ],
+    "areas_primary": "Unclear",
+    "areas_secondary": [],
+    "areas_confidence": "Low",
+    "areas_rationale": "Describes a desirable condition but no actor action, control or strategy.",
+    "areas_quote": "a natural and straightforward part",
+    "areas_scope": "Unspecified",
+    "areas_scale": "Local",
+    "themes": [
+      "Curriculum integration"
+    ],
+    "researcher_validated": false,
+    "researcher_notes": "",
+    "origin": "AI interpretation",
+    "coded_at": "2026-09-10",
+    "matrix_position": []
+  },
+  {
+    "id": "R01-Q03",
+    "respondent_id": "R01",
+    "question_id": "Q03",
+    "original_response": "To continue to meet, and to ensure that there is time within our studies and work commitments to plan such courses and meetings.",
+    "dator_primary": "Discipline",
+    "dator_secondary": [
+      "Continued Growth"
+    ],
+    "dator_confidence": "Medium",
+    "dator_rationale": "Protected time within existing commitments is a deliberate allocation rule; continuing meetings also extends current collaboration.",
+    "dator_quote": "time within our studies and work commitments",
+    "meaning_units": [
+      {
+        "text": "To continue to meet",
+        "dator_codes": [
+          "Continued Growth"
+        ],
+        "rationale": "Continuation of recurring encounters."
+      },
+      {
+        "text": "time within our studies and work commitments to plan such courses and meetings.",
+        "dator_codes": [
+          "Discipline"
+        ],
+        "rationale": "Planning time must be secured within collective workloads."
+      }
+    ],
+    "areas_primary": "Architecting",
+    "areas_secondary": [],
+    "areas_confidence": "Medium",
+    "areas_rationale": "Proposes arranging workload time for courses and meetings. This is proposed local coordination, not evidence that it has been secured.",
+    "areas_quote": "time within our studies and work commitments",
+    "areas_scope": "Proposed",
+    "areas_scale": "Local",
+    "themes": [
+      "Protected time",
+      "Partnerships"
+    ],
+    "researcher_validated": false,
+    "researcher_notes": "",
+    "origin": "AI interpretation",
+    "coded_at": "2026-09-10",
+    "matrix_position": [
+      {
+        "dator": "Discipline",
+        "areas": "Architecting",
+        "match": "primary-primary"
+      },
+      {
+        "dator": "Continued Growth",
+        "areas": "Architecting",
+        "match": "secondary-involved"
+      }
+    ]
+  },
+  {
+    "id": "R02-Q01",
+    "respondent_id": "R02",
+    "question_id": "Q01",
+    "original_response": "The workload, (finding the time) but also sometimes lack of funding for travels etc.",
+    "dator_primary": "Unclear / Not classifiable",
+    "dator_secondary": [],
+    "dator_confidence": "Low",
+    "dator_rationale": "Reports present workload and travel funding shortages; no decline or future outcome is described.",
+    "dator_quote": "sometimes lack of funding for travels",
+    "meaning_units": [
+      {
+        "text": "The workload, (finding the time) but also sometimes lack of funding for travels etc.",
+        "dator_codes": [],
+        "rationale": "Reports present workload and travel funding shortages; no decline or future outcome is described."
+      }
+    ],
+    "areas_primary": "Shaped",
+    "areas_secondary": [],
+    "areas_confidence": "High",
+    "areas_rationale": "Participation is constrained by time and travel funding, with no control over those conditions described.",
+    "areas_quote": "sometimes lack of funding for travels",
+    "areas_scope": "Reported",
+    "areas_scale": "Local",
+    "themes": [
+      "Workload",
+      "Funding"
+    ],
+    "researcher_validated": false,
+    "researcher_notes": "",
+    "origin": "AI interpretation",
+    "coded_at": "2026-09-10",
+    "matrix_position": []
+  },
+  {
+    "id": "R02-Q02",
+    "respondent_id": "R02",
+    "question_id": "Q02",
+    "original_response": "Something that occur in both educational programs and research: preferably face-to-face exchange in order to gain a better understanding of other contexts and traditions",
+    "dator_primary": "Continued Growth",
+    "dator_secondary": [],
+    "dator_confidence": "High",
+    "dator_rationale": "Extends exchange through education and research while retaining existing programmes and the value of situated encounters.",
+    "dator_quote": "preferably face-to-face exchange",
+    "meaning_units": [
+      {
+        "text": "Something that occur in both educational programs and research: preferably face-to-face exchange in order to gain a better understanding of other contexts and traditions",
+        "dator_codes": [
+          "Continued Growth"
+        ],
+        "rationale": "Extends exchange through education and research while retaining existing programmes and the value of situated encounters."
+      }
+    ],
+    "areas_primary": "Unclear",
+    "areas_secondary": [],
+    "areas_confidence": "Low",
+    "areas_rationale": "Prefers face-to-face exchange but does not identify who is building or controlling it.",
+    "areas_quote": "preferably face-to-face exchange",
+    "areas_scope": "Unspecified",
+    "areas_scale": "Local",
+    "themes": [
+      "Mobility",
+      "Context and plurality"
+    ],
+    "researcher_validated": false,
+    "researcher_notes": "",
+    "origin": "AI interpretation",
+    "coded_at": "2026-09-10",
+    "matrix_position": []
+  },
+  {
+    "id": "R02-Q03",
+    "respondent_id": "R02",
+    "question_id": "Q03",
+    "original_response": "Allocated funds and supporting structures (tools, contacts, etc), and funds that also can be used to give teachers/researchers time in their schedule",
+    "dator_primary": "Discipline",
+    "dator_secondary": [
+      "Continued Growth"
+    ],
+    "dator_confidence": "Medium",
+    "dator_rationale": "Earmarked funds and scheduled time imply intentional allocation of collective capacity; the goal is expanded existing activity.",
+    "dator_quote": "give teachers/researchers time in their schedule",
+    "meaning_units": [
+      {
+        "text": "Allocated funds and supporting structures (tools, contacts, etc)",
+        "dator_codes": [
+          "Discipline"
+        ],
+        "rationale": "Dedicated shared provision supports participation."
+      },
+      {
+        "text": "give teachers/researchers time in their schedule",
+        "dator_codes": [
+          "Discipline"
+        ],
+        "rationale": "Workload time is deliberately allocated."
+      }
+    ],
+    "areas_primary": "Architecting",
+    "areas_secondary": [],
+    "areas_confidence": "Medium",
+    "areas_rationale": "Proposes supporting structures and workload allocation. Institutional authority to implement them is not demonstrated.",
+    "areas_quote": "give teachers/researchers time in their schedule",
+    "areas_scope": "Proposed",
+    "areas_scale": "Local",
+    "themes": [
+      "Protected time",
+      "Funding",
+      "Administrative support"
+    ],
+    "researcher_validated": false,
+    "researcher_notes": "",
+    "origin": "AI interpretation",
+    "coded_at": "2026-09-10",
+    "matrix_position": [
+      {
+        "dator": "Discipline",
+        "areas": "Architecting",
+        "match": "primary-primary"
+      },
+      {
+        "dator": "Continued Growth",
+        "areas": "Architecting",
+        "match": "secondary-involved"
+      }
+    ]
+  },
+  {
+    "id": "R03-Q01",
+    "respondent_id": "R03",
+    "question_id": "Q01",
+    "original_response": "Language—as the teaching language in our institution is the national language.",
+    "dator_primary": "Unclear / Not classifiable",
+    "dator_secondary": [],
+    "dator_confidence": "Low",
+    "dator_rationale": "A current teaching-language barrier is not itself an imagined future.",
+    "dator_quote": "the teaching language in our institution is the national language.",
+    "meaning_units": [
+      {
+        "text": "Language—as the teaching language in our institution is the national language.",
+        "dator_codes": [],
+        "rationale": "A current teaching-language barrier is not itself an imagined future."
+      }
+    ],
+    "areas_primary": "Shaped",
+    "areas_secondary": [],
+    "areas_confidence": "High",
+    "areas_rationale": "Teaching language is presented as a condition limiting participation, not as an active attempt to prevent change.",
+    "areas_quote": "the teaching language in our institution is the national language.",
+    "areas_scope": "Reported",
+    "areas_scale": "Local",
+    "themes": [
+      "Language"
+    ],
+    "researcher_validated": false,
+    "researcher_notes": "",
+    "origin": "AI interpretation",
+    "coded_at": "2026-09-10",
+    "matrix_position": []
+  },
+  {
+    "id": "R03-Q02",
+    "respondent_id": "R03",
+    "question_id": "Q02",
+    "original_response": "A number of elective courses that are co-developed by the participating universities and taught in English. These courses should be part online and part intensive, hosted by the universities responsible for each course.",
+    "dator_primary": "Continued Growth",
+    "dator_secondary": [
+      "Discipline"
+    ],
+    "dator_confidence": "Medium",
+    "dator_rationale": "Adds jointly developed hybrid electives to existing universities. Shared provision implies coordination, but neither online teaching nor electives replace the university model.",
+    "dator_quote": "elective courses that are co-developed by the participating universities",
+    "meaning_units": [
+      {
+        "text": "A number of elective courses that are co-developed by the participating universities and taught in English.",
+        "dator_codes": [
+          "Continued Growth"
+        ],
+        "rationale": "New electives extend existing university provision."
+      },
+      {
+        "text": "These courses should be part online and part intensive, hosted by the universities responsible for each course.",
+        "dator_codes": [
+          "Continued Growth",
+          "Discipline"
+        ],
+        "rationale": "Hybrid delivery remains within universities and requires shared hosting arrangements."
+      }
+    ],
+    "areas_primary": "Architecting",
+    "areas_secondary": [],
+    "areas_confidence": "Medium",
+    "areas_rationale": "Proposes partner universities co-developing and hosting courses: a concrete design at partnership scale, still aspirational.",
+    "areas_quote": "elective courses that are co-developed by the participating universities",
+    "areas_scope": "Proposed",
+    "areas_scale": "Regional/Sectoral",
+    "themes": [
+      "Joint courses",
+      "Hybrid learning",
+      "Language"
+    ],
+    "researcher_validated": false,
+    "researcher_notes": "",
+    "origin": "AI interpretation",
+    "coded_at": "2026-09-10",
+    "matrix_position": [
+      {
+        "dator": "Continued Growth",
+        "areas": "Architecting",
+        "match": "primary-primary"
+      },
+      {
+        "dator": "Discipline",
+        "areas": "Architecting",
+        "match": "secondary-involved"
+      }
+    ]
+  },
+  {
+    "id": "R03-Q03",
+    "respondent_id": "R03",
+    "question_id": "Q03",
+    "original_response": "We could apply for the next round of funding to work on developing these courses and test them out. ",
+    "dator_primary": "Continued Growth",
+    "dator_secondary": [],
+    "dator_confidence": "High",
+    "dator_rationale": "A next funding round and course testing describe incremental development within the grant system.",
+    "dator_quote": "developing these courses and test them out.",
+    "meaning_units": [
+      {
+        "text": "We could apply for the next round of funding to work on developing these courses and test them out. ",
+        "dator_codes": [
+          "Continued Growth"
+        ],
+        "rationale": "A next funding round and course testing describe incremental development within the grant system."
+      }
+    ],
+    "areas_primary": "Architecting",
+    "areas_secondary": [],
+    "areas_confidence": "Medium",
+    "areas_rationale": "The respondent proposes developing and testing courses. Applying for normal funding is not evidence of exploiting systemic friction.",
+    "areas_quote": "developing these courses and test them out.",
+    "areas_scope": "Proposed",
+    "areas_scale": "Local",
+    "themes": [
+      "Funding",
+      "Course pilots"
+    ],
+    "researcher_validated": false,
+    "researcher_notes": "",
+    "origin": "AI interpretation",
+    "coded_at": "2026-09-10",
+    "matrix_position": [
+      {
+        "dator": "Continued Growth",
+        "areas": "Architecting",
+        "match": "primary-primary"
+      }
+    ]
+  },
+  {
+    "id": "R04-Q01",
+    "respondent_id": "R04",
+    "question_id": "Q01",
+    "original_response": "Internationalisation is already happening at my institution. In most ways it is really good, it brings funding and a metaperspective to the activities and counteracts traditionality, but it also diminishes the Swedish context where English-speaking academics gets interpretation priority.",
+    "dator_primary": "Unclear / Not classifiable",
+    "dator_secondary": [],
+    "dator_confidence": "Low",
+    "dator_rationale": "Evaluates present gains and unequal voice rather than predicting a future. Critique alone does not establish decline.",
+    "dator_quote": "English-speaking academics gets interpretation priority.",
+    "meaning_units": [
+      {
+        "text": "it brings funding and a metaperspective to the activities and counteracts traditionality",
+        "dator_codes": [],
+        "rationale": "A current evaluation of benefits, not a future trajectory."
+      },
+      {
+        "text": "it also diminishes the Swedish context where English-speaking academics gets interpretation priority.",
+        "dator_codes": [],
+        "rationale": "A present asymmetry of voice; no breakdown scenario is described."
+      }
+    ],
+    "areas_primary": "Shaped",
+    "areas_secondary": [],
+    "areas_confidence": "High",
+    "areas_rationale": "The local context loses interpretive priority to English-speaking academics. Benefits are reported, but no brokerage or organised resistance is demonstrated.",
+    "areas_quote": "English-speaking academics gets interpretation priority.",
+    "areas_scope": "Reported",
+    "areas_scale": "Local",
+    "themes": [
+      "Language",
+      "Context and plurality",
+      "Institutional priorities"
+    ],
+    "researcher_validated": false,
+    "researcher_notes": "",
+    "origin": "AI interpretation",
+    "coded_at": "2026-09-10",
+    "matrix_position": []
+  },
+  {
+    "id": "R04-Q02",
+    "respondent_id": "R04",
+    "question_id": "Q02",
+    "original_response": "There is probably no ideal situation, but in every situation an open academic freedom is the best with plurality for many voices, orientations and a tolerant and respectful working environment is the best to also achieve academic success. If internationalisation supports this, it is the best or creates an ideal situation.",
+    "dator_primary": "Discipline",
+    "dator_secondary": [],
+    "dator_confidence": "Medium",
+    "dator_rationale": "Internationalisation is conditional on academic freedom, pluralism and respect. A values-governed future is a better fit than more activity for its own sake; explicit regulation is absent.",
+    "dator_quote": "plurality for many voices",
+    "meaning_units": [
+      {
+        "text": "There is probably no ideal situation",
+        "dator_codes": [],
+        "rationale": "Explicitly refuses one ideal endpoint."
+      },
+      {
+        "text": "an open academic freedom is the best with plurality for many voices, orientations and a tolerant and respectful working environment",
+        "dator_codes": [
+          "Discipline"
+        ],
+        "rationale": "Pluralism and freedom provide evaluative conditions for internationalisation, though formal regulation is not specified."
+      }
+    ],
+    "areas_primary": "Unclear",
+    "areas_secondary": [],
+    "areas_confidence": "Low",
+    "areas_rationale": "States evaluative principles and rejects a single ideal; it does not report active resistance or an actor implementing rules.",
+    "areas_quote": "plurality for many voices",
+    "areas_scope": "Unspecified",
+    "areas_scale": "Local",
+    "themes": [
+      "Context and plurality",
+      "Academic freedom"
+    ],
+    "researcher_validated": false,
+    "researcher_notes": "",
+    "origin": "AI interpretation",
+    "coded_at": "2026-09-10",
+    "matrix_position": []
+  },
+  {
+    "id": "R04-Q03",
+    "respondent_id": "R04",
+    "question_id": "Q03",
+    "original_response": "It requires leadership, collaboration, collegiality and an organisational and administrative structure that works for the development of the work and activities that should be in focus for the best of education and research.",
+    "dator_primary": "Discipline",
+    "dator_secondary": [],
+    "dator_confidence": "High",
+    "dator_rationale": "An organisational structure oriented to shared educational and research priorities centres collective coordination.",
+    "dator_quote": "an organisational and administrative structure",
+    "meaning_units": [
+      {
+        "text": "It requires leadership, collaboration, collegiality and an organisational and administrative structure that works for the development of the work and activities that should be in focus for the best of education and research.",
+        "dator_codes": [
+          "Discipline"
+        ],
+        "rationale": "An organisational structure oriented to shared educational and research priorities centres collective coordination."
+      }
+    ],
+    "areas_primary": "Architecting",
+    "areas_secondary": [],
+    "areas_confidence": "Medium",
+    "areas_rationale": "Assigns a design and coordination role to leadership and administration, as a requirement rather than an accomplished position.",
+    "areas_quote": "an organisational and administrative structure",
+    "areas_scope": "Proposed",
+    "areas_scale": "Local",
+    "themes": [
+      "Leadership",
+      "Administrative support",
+      "Partnerships"
+    ],
+    "researcher_validated": false,
+    "researcher_notes": "",
+    "origin": "AI interpretation",
+    "coded_at": "2026-09-10",
+    "matrix_position": [
+      {
+        "dator": "Discipline",
+        "areas": "Architecting",
+        "match": "primary-primary"
+      }
+    ]
+  },
+  {
+    "id": "R05-Q01",
+    "respondent_id": "R05",
+    "question_id": "Q01",
+    "original_response": "Our teaching in teacher education in arts and crafts is in Norwegian except for one subject (15 ECTS) that can be taught in English. The whole programme is not very 'geared' towards international visits and exchanges. A number of students have family or other obligations at home or are not particularly interested. The teachers could also motivate them more, I guess.",
+    "dator_primary": "Unclear / Not classifiable",
+    "dator_secondary": [],
+    "dator_confidence": "Low",
+    "dator_rationale": "Describes current language, family and programme constraints, not a future scenario.",
+    "dator_quote": "family or other obligations at home",
+    "meaning_units": [
+      {
+        "text": "The whole programme is not very 'geared' towards international visits and exchanges.",
+        "dator_codes": [],
+        "rationale": "Current structural fit, not a future scenario."
+      },
+      {
+        "text": "A number of students have family or other obligations at home or are not particularly interested.",
+        "dator_codes": [],
+        "rationale": "Present obligations and interest are not strategic resistance or a future trajectory."
+      }
+    ],
+    "areas_primary": "Shaped",
+    "areas_secondary": [],
+    "areas_confidence": "High",
+    "areas_rationale": "Students and teachers navigate language, programme design and obligations. Lack of interest is not evidence of active resistance.",
+    "areas_quote": "family or other obligations at home",
+    "areas_scope": "Reported",
+    "areas_scale": "Local",
+    "themes": [
+      "Language",
+      "Curriculum constraints",
+      "Care and motivation"
+    ],
+    "researcher_validated": false,
+    "researcher_notes": "",
+    "origin": "AI interpretation",
+    "coded_at": "2026-09-10",
+    "matrix_position": []
+  },
+  {
+    "id": "R05-Q02",
+    "respondent_id": "R05",
+    "question_id": "Q02",
+    "original_response": "Knowledge of nordic programmes in universities and schools. Visits from abroad both of teachers and students",
+    "dator_primary": "Continued Growth",
+    "dator_secondary": [],
+    "dator_confidence": "High",
+    "dator_rationale": "More knowledge and incoming visits extend familiar university and school exchange practices.",
+    "dator_quote": "Visits from abroad both of teachers and students",
+    "meaning_units": [
+      {
+        "text": "Knowledge of nordic programmes in universities and schools. Visits from abroad both of teachers and students",
+        "dator_codes": [
+          "Continued Growth"
+        ],
+        "rationale": "More knowledge and incoming visits extend familiar university and school exchange practices."
+      }
+    ],
+    "areas_primary": "Unclear",
+    "areas_secondary": [],
+    "areas_confidence": "Low",
+    "areas_rationale": "The short answer names desired encounters, without enough action evidence to assign a position.",
+    "areas_quote": "Visits from abroad both of teachers and students",
+    "areas_scope": "Unspecified",
+    "areas_scale": "Local",
+    "themes": [
+      "Mobility",
+      "Partnerships"
+    ],
+    "researcher_validated": false,
+    "researcher_notes": "",
+    "origin": "AI interpretation",
+    "coded_at": "2026-09-10",
+    "matrix_position": []
+  },
+  {
+    "id": "R05-Q03",
+    "respondent_id": "R05",
+    "question_id": "Q03",
+    "original_response": "Close partnerships with other institutions (and Schools) might be a possibility",
+    "dator_primary": "Continued Growth",
+    "dator_secondary": [],
+    "dator_confidence": "High",
+    "dator_rationale": "Closer partnerships improve existing institutional relationships; no new organisational logic is specified.",
+    "dator_quote": "Close partnerships with other institutions",
+    "meaning_units": [
+      {
+        "text": "Close partnerships with other institutions (and Schools) might be a possibility",
+        "dator_codes": [
+          "Continued Growth"
+        ],
+        "rationale": "Closer partnerships improve existing institutional relationships; no new organisational logic is specified."
+      }
+    ],
+    "areas_primary": "Unclear",
+    "areas_secondary": [],
+    "areas_confidence": "Low",
+    "areas_rationale": "A possible partnership is not enough to establish rule-setting, brokerage or another strategic position.",
+    "areas_quote": "Close partnerships with other institutions",
+    "areas_scope": "Proposed",
+    "areas_scale": "Local",
+    "themes": [
+      "Partnerships"
+    ],
+    "researcher_validated": false,
+    "researcher_notes": "",
+    "origin": "AI interpretation",
+    "coded_at": "2026-09-10",
+    "matrix_position": []
+  },
+  {
+    "id": "R06-Q01",
+    "respondent_id": "R06",
+    "question_id": "Q01",
+    "original_response": "It depends on what is meant by internationalisation and the context in which it is considered. In general, the main barriers are funding and time. Lack of engagement is less often an issue.",
+    "dator_primary": "Unclear / Not classifiable",
+    "dator_secondary": [],
+    "dator_confidence": "Low",
+    "dator_rationale": "Defines a present resource problem and questions the meaning of internationalisation; it offers no future direction.",
+    "dator_quote": "the main barriers are funding and time.",
+    "meaning_units": [
+      {
+        "text": "It depends on what is meant by internationalisation and the context in which it is considered. In general, the main barriers are funding and time. Lack of engagement is less often an issue.",
+        "dator_codes": [],
+        "rationale": "Defines a present resource problem and questions the meaning of internationalisation; it offers no future direction."
+      }
+    ],
+    "areas_primary": "Shaped",
+    "areas_secondary": [],
+    "areas_confidence": "High",
+    "areas_rationale": "Funding and time limit engagement despite willingness. No ability to change those limits is stated.",
+    "areas_quote": "the main barriers are funding and time.",
+    "areas_scope": "Reported",
+    "areas_scale": "Local",
+    "themes": [
+      "Workload",
+      "Funding",
+      "Meaning of internationalisation"
+    ],
+    "researcher_validated": false,
+    "researcher_notes": "",
+    "origin": "AI interpretation",
+    "coded_at": "2026-09-10",
+    "matrix_position": []
+  },
+  {
+    "id": "R06-Q02",
+    "respondent_id": "R06",
+    "question_id": "Q02",
+    "original_response": "Collaborative learning, sharing experiences, inspiration from effective practices and approaches, and, in the best of worlds, learning about the world and one’s own identity within it.",
+    "dator_primary": "Continued Growth",
+    "dator_secondary": [],
+    "dator_confidence": "Medium",
+    "dator_rationale": "Shared learning and inspiration improve existing practices. Personal identity learning does not demonstrate systemic Transformation.",
+    "dator_quote": "Collaborative learning, sharing experiences",
+    "meaning_units": [
+      {
+        "text": "Collaborative learning, sharing experiences, inspiration from effective practices and approaches",
+        "dator_codes": [
+          "Continued Growth"
+        ],
+        "rationale": "Learning improves existing practice."
+      },
+      {
+        "text": "learning about the world and one’s own identity within it.",
+        "dator_codes": [],
+        "rationale": "Personal reflexivity matters, but does not specify a reorganisation of institutions."
+      }
+    ],
+    "areas_primary": "Unclear",
+    "areas_secondary": [],
+    "areas_confidence": "Low",
+    "areas_rationale": "Describes what learning should offer, without specifying a strategic action or control of change.",
+    "areas_quote": "Collaborative learning, sharing experiences",
+    "areas_scope": "Unspecified",
+    "areas_scale": "Local",
+    "themes": [
+      "Shared learning",
+      "Context and plurality"
+    ],
+    "researcher_validated": false,
+    "researcher_notes": "",
+    "origin": "AI interpretation",
+    "coded_at": "2026-09-10",
+    "matrix_position": []
+  },
+  {
+    "id": "R06-Q03",
+    "respondent_id": "R06",
+    "question_id": "Q03",
+    "original_response": "The necessary conditions. There need to be individuals who have the knowledge and capacity to handle the administrative work involved in exchanges and internationalisation in its various forms. I am convinced that the willingness and commitment are there, at least in the relationship between Finland and Sweden.",
+    "dator_primary": "Discipline",
+    "dator_secondary": [],
+    "dator_confidence": "High",
+    "dator_rationale": "Dedicated administrative knowledge and capacity make collective provision the condition of internationalisation.",
+    "dator_quote": "knowledge and capacity to handle the administrative work",
+    "meaning_units": [
+      {
+        "text": "The necessary conditions. There need to be individuals who have the knowledge and capacity to handle the administrative work involved in exchanges and internationalisation in its various forms. I am convinced that the willingness and commitment are there, at least in the relationship between Finland and Sweden.",
+        "dator_codes": [
+          "Discipline"
+        ],
+        "rationale": "Dedicated administrative knowledge and capacity make collective provision the condition of internationalisation."
+      }
+    ],
+    "areas_primary": "Architecting",
+    "areas_secondary": [],
+    "areas_confidence": "Medium",
+    "areas_rationale": "Proposes staffing the administrative work needed for exchanges. This is an infrastructure requirement, not evidence of current authority.",
+    "areas_quote": "knowledge and capacity to handle the administrative work",
+    "areas_scope": "Proposed",
+    "areas_scale": "Local",
+    "themes": [
+      "Administrative support",
+      "Protected time",
+      "Partnerships"
+    ],
+    "researcher_validated": false,
+    "researcher_notes": "",
+    "origin": "AI interpretation",
+    "coded_at": "2026-09-10",
+    "matrix_position": [
+      {
+        "dator": "Discipline",
+        "areas": "Architecting",
+        "match": "primary-primary"
+      }
+    ]
+  },
+  {
+    "id": "R07-Q01",
+    "respondent_id": "R07",
+    "question_id": "Q01",
+    "original_response": "My colleagues keep saying they have no time. When it comes to the students, we offer very few opportunities/\"open windows\" when they can choose exchange studies. But basically - everyone, students and staff, are too stressed. Also, maybe, lack of curiosity. And the fact that teacher education is so rigidly connected to national curricula makes teachers and students think it is of \"no use\" to visit and learn from other countries. ",
+    "dator_primary": "Unclear / Not classifiable",
+    "dator_secondary": [],
+    "dator_confidence": "Low",
+    "dator_rationale": "Present stress and restricted exchange windows do not by themselves describe future institutional breakdown.",
+    "dator_quote": "everyone, students and staff, are too stressed.",
+    "meaning_units": [
+      {
+        "text": "My colleagues keep saying they have no time. When it comes to the students, we offer very few opportunities/\"open windows\" when they can choose exchange studies. But basically - everyone, students and staff, are too stressed. Also, maybe, lack of curiosity. And the fact that teacher education is so rigidly connected to national curricula makes teachers and students think it is of \"no use\" to visit and learn from other countries. ",
+        "dator_codes": [],
+        "rationale": "Present stress and restricted exchange windows do not by themselves describe future institutional breakdown."
+      }
+    ],
+    "areas_primary": "Shaped",
+    "areas_secondary": [],
+    "areas_confidence": "High",
+    "areas_rationale": "Staff and students operate within stress, limited windows and national curricula; reported scepticism is not organised resistance.",
+    "areas_quote": "everyone, students and staff, are too stressed.",
+    "areas_scope": "Reported",
+    "areas_scale": "Local",
+    "themes": [
+      "Workload",
+      "Curriculum constraints",
+      "Care and motivation"
+    ],
+    "researcher_validated": false,
+    "researcher_notes": "",
+    "origin": "AI interpretation",
+    "coded_at": "2026-09-10",
+    "matrix_position": []
+  },
+  {
+    "id": "R07-Q02",
+    "respondent_id": "R07",
+    "question_id": "Q02",
+    "original_response": "It should be present on every level: student exchange, teachers visiting and learning from each other, and researchers visiting and collaborating. That is, very much as it is formulated already... But it should come more \"naturally\" and regularly. ",
+    "dator_primary": "Continued Growth",
+    "dator_secondary": [],
+    "dator_confidence": "High",
+    "dator_rationale": "Explicitly wants already-formulated exchange goals to happen more regularly across existing levels.",
+    "dator_quote": "very much as it is formulated already",
+    "meaning_units": [
+      {
+        "text": "It should be present on every level: student exchange, teachers visiting and learning from each other, and researchers visiting and collaborating. That is, very much as it is formulated already... But it should come more \"naturally\" and regularly. ",
+        "dator_codes": [
+          "Continued Growth"
+        ],
+        "rationale": "Explicitly wants already-formulated exchange goals to happen more regularly across existing levels."
+      }
+    ],
+    "areas_primary": "Unclear",
+    "areas_secondary": [],
+    "areas_confidence": "Low",
+    "areas_rationale": "A regularity aspiration names neither rule-setting action nor a strategy being pursued.",
+    "areas_quote": "very much as it is formulated already",
+    "areas_scope": "Unspecified",
+    "areas_scale": "Local",
+    "themes": [
+      "Curriculum integration",
+      "Mobility",
+      "Shared learning"
+    ],
+    "researcher_validated": false,
+    "researcher_notes": "",
+    "origin": "AI interpretation",
+    "coded_at": "2026-09-10",
+    "matrix_position": []
+  },
+  {
+    "id": "R07-Q03",
+    "respondent_id": "R07",
+    "question_id": "Q03",
+    "original_response": "Maybe make it mandatory, or part of our curricula, to get to know how other countries arrange their visual art teacher education. \"Know thy neighbour\"",
+    "dator_primary": "Discipline",
+    "dator_secondary": [],
+    "dator_confidence": "High",
+    "dator_rationale": "Making comparative learning mandatory or curricular is deliberate institutional regulation of participation.",
+    "dator_quote": "Maybe make it mandatory, or part of our curricula",
+    "meaning_units": [
+      {
+        "text": "Maybe make it mandatory, or part of our curricula, to get to know how other countries arrange their visual art teacher education. \"Know thy neighbour\"",
+        "dator_codes": [
+          "Discipline"
+        ],
+        "rationale": "Making comparative learning mandatory or curricular is deliberate institutional regulation of participation."
+      }
+    ],
+    "areas_primary": "Architecting",
+    "areas_secondary": [],
+    "areas_confidence": "Medium",
+    "areas_rationale": "Proposes changing curriculum requirements at local programme scale. The power to enact this is unknown.",
+    "areas_quote": "Maybe make it mandatory, or part of our curricula",
+    "areas_scope": "Proposed",
+    "areas_scale": "Local",
+    "themes": [
+      "Curriculum integration",
+      "Shared rules"
+    ],
+    "researcher_validated": false,
+    "researcher_notes": "",
+    "origin": "AI interpretation",
+    "coded_at": "2026-09-10",
+    "matrix_position": [
+      {
+        "dator": "Discipline",
+        "areas": "Architecting",
+        "match": "primary-primary"
+      }
+    ]
+  },
+  {
+    "id": "R08-Q01",
+    "respondent_id": "R08",
+    "question_id": "Q01",
+    "original_response": "Internationalisation requires special care and time in terms of planning and coordination, whether it involves a visiting teacher or an international student. It seems that one of the biggest barriers to internationalisation is the timetable itself. Genuine interest from student in engaging with visiting teachers tends to emerge when these visits are integrated into  course which the students are already enrolled. ",
+    "dator_primary": "Unclear / Not classifiable",
+    "dator_secondary": [],
+    "dator_confidence": "Low",
+    "dator_rationale": "The timetable and coordination problem is current. An observation about student engagement is not a future scenario.",
+    "dator_quote": "one of the biggest barriers to internationalisation is the timetable itself.",
+    "meaning_units": [
+      {
+        "text": "Internationalisation requires special care and time in terms of planning and coordination, whether it involves a visiting teacher or an international student. It seems that one of the biggest barriers to internationalisation is the timetable itself. Genuine interest from student in engaging with visiting teachers tends to emerge when these visits are integrated into  course which the students are already enrolled. ",
+        "dator_codes": [],
+        "rationale": "The timetable and coordination problem is current. An observation about student engagement is not a future scenario."
+      }
+    ],
+    "areas_primary": "Shaped",
+    "areas_secondary": [],
+    "areas_confidence": "High",
+    "areas_rationale": "Visiting teachers and students depend on timetable integration and planning conditions.",
+    "areas_quote": "one of the biggest barriers to internationalisation is the timetable itself.",
+    "areas_scope": "Reported",
+    "areas_scale": "Local",
+    "themes": [
+      "Workload",
+      "Curriculum constraints",
+      "Coordination"
+    ],
+    "researcher_validated": false,
+    "researcher_notes": "",
+    "origin": "AI interpretation",
+    "coded_at": "2026-09-10",
+    "matrix_position": []
+  },
+  {
+    "id": "R08-Q02",
+    "respondent_id": "R08",
+    "question_id": "Q02",
+    "original_response": "The ideal situation will be created when the following elements come together. \nFor visiting teachers: incoming teachers send us a brief introduction to their research areas and their interest in teaching at our institution before student registration for courses begins. For example, students register for courses taught in the spring semester during November and for courses taught in the autumn during April. The internationalisation coordinator then can make use of the course named Independent Work (2ECTS), allowing students to register to the course and thereby reserve time in their time table to meet with the visiting teacher. Alternatively, the internationalisation coordinator can identify courses that align well with the visiting teacher´s research area and try to integrate teacher´s contribution into those courses. \nFor our students: outgoing students (most likely in their final year) are matched with teachers at partner institutions according to their interests and research area. The outcomes of the exchange is then assessed and recognised as ECTS based on discussion and agreement between two institutions.  ",
+    "dator_primary": "Discipline",
+    "dator_secondary": [
+      "Continued Growth"
+    ],
+    "dator_confidence": "Medium",
+    "dator_rationale": "Course-registration deadlines, interest matching and agreed ECTS create a coordinated framework for more exchange within existing programmes.",
+    "dator_quote": "assessed and recognised as ECTS based on discussion and agreement between two institutions.",
+    "meaning_units": [
+      {
+        "text": "incoming teachers send us a brief introduction to their research areas and their interest in teaching at our institution before student registration for courses begins.",
+        "dator_codes": [
+          "Discipline"
+        ],
+        "rationale": "Information must precede registration to coordinate participation."
+      },
+      {
+        "text": "allowing students to register to the course and thereby reserve time in their time table to meet with the visiting teacher.",
+        "dator_codes": [
+          "Discipline",
+          "Continued Growth"
+        ],
+        "rationale": "Scheduling enables expanded encounters within an existing course."
+      },
+      {
+        "text": "outgoing students (most likely in their final year) are matched with teachers at partner institutions according to their interests and research area.",
+        "dator_codes": [
+          "Continued Growth"
+        ],
+        "rationale": "Matching improves existing mobility."
+      },
+      {
+        "text": "assessed and recognised as ECTS based on discussion and agreement between two institutions.",
+        "dator_codes": [
+          "Discipline"
+        ],
+        "rationale": "Shared credit rules recognise the exchange."
+      }
+    ],
+    "areas_primary": "Architecting",
+    "areas_secondary": [],
+    "areas_confidence": "Medium",
+    "areas_rationale": "Specifies coordinator and partner-institution actions for registration, integration and credit recognition. Detailed design is not proof of implementation.",
+    "areas_quote": "assessed and recognised as ECTS based on discussion and agreement between two institutions.",
+    "areas_scope": "Proposed",
+    "areas_scale": "Regional/Sectoral",
+    "themes": [
+      "Coordination",
+      "Credit recognition",
+      "Curriculum integration",
+      "Mobility"
+    ],
+    "researcher_validated": false,
+    "researcher_notes": "",
+    "origin": "AI interpretation",
+    "coded_at": "2026-09-10",
+    "matrix_position": [
+      {
+        "dator": "Discipline",
+        "areas": "Architecting",
+        "match": "primary-primary"
+      },
+      {
+        "dator": "Continued Growth",
+        "areas": "Architecting",
+        "match": "secondary-involved"
+      }
+    ]
+  },
+  {
+    "id": "R08-Q03",
+    "respondent_id": "R08",
+    "question_id": "Q03",
+    "original_response": "The role of internationalisation coordinator, who is also member of the academic staff needs to be clearly defined and sustained in order to support internationalisation- not only during this project periods but on an ongoing basis. This role should complement the work of the International office, which focuses more on practical matters such as funding, logistics and administration. ",
+    "dator_primary": "Discipline",
+    "dator_secondary": [],
+    "dator_confidence": "High",
+    "dator_rationale": "An ongoing academic coordinator with a defined division of labour replaces dependence on project periods with sustained collective provision.",
+    "dator_quote": "not only during this project periods but on an ongoing basis.",
+    "meaning_units": [
+      {
+        "text": "needs to be clearly defined and sustained",
+        "dator_codes": [
+          "Discipline"
+        ],
+        "rationale": "An ongoing role and mandate are required."
+      },
+      {
+        "text": "This role should complement the work of the International office",
+        "dator_codes": [
+          "Discipline"
+        ],
+        "rationale": "Defines a division of labour rather than replacing existing administration."
+      }
+    ],
+    "areas_primary": "Architecting",
+    "areas_secondary": [],
+    "areas_confidence": "Medium",
+    "areas_rationale": "Proposes defining and sustaining an academic coordinator alongside the International office; the employment mandate is not yet evidenced.",
+    "areas_quote": "not only during this project periods but on an ongoing basis.",
+    "areas_scope": "Proposed",
+    "areas_scale": "Local",
+    "themes": [
+      "Coordination",
+      "Protected time",
+      "Administrative support"
+    ],
+    "researcher_validated": false,
+    "researcher_notes": "",
+    "origin": "AI interpretation",
+    "coded_at": "2026-09-10",
+    "matrix_position": [
+      {
+        "dator": "Discipline",
+        "areas": "Architecting",
+        "match": "primary-primary"
+      }
+    ]
+  },
+  {
+    "id": "R09-Q01",
+    "respondent_id": "R09",
+    "question_id": "Q01",
+    "original_response": "In my view, the biggest obstacles are simply time and budget. The ambition is definitely there, even from central leadership, but finding the money is a constant struggle. It’s hard to find and secure enough funding—both from the university itself and through national grants—especially for longer-term projects.",
+    "dator_primary": "Unclear / Not classifiable",
+    "dator_secondary": [],
+    "dator_confidence": "Low",
+    "dator_rationale": "Difficulty securing long-term funding is a current constraint; the response does not predict the loss of programmes.",
+    "dator_quote": "finding the money is a constant struggle.",
+    "meaning_units": [
+      {
+        "text": "In my view, the biggest obstacles are simply time and budget. The ambition is definitely there, even from central leadership, but finding the money is a constant struggle. It’s hard to find and secure enough funding—both from the university itself and through national grants—especially for longer-term projects.",
+        "dator_codes": [],
+        "rationale": "Difficulty securing long-term funding is a current constraint; the response does not predict the loss of programmes."
+      }
+    ],
+    "areas_primary": "Shaped",
+    "areas_secondary": [],
+    "areas_confidence": "High",
+    "areas_rationale": "Even leadership ambition is limited by institutional and grant resources, revealing constrained agency without assuming opposition.",
+    "areas_quote": "finding the money is a constant struggle.",
+    "areas_scope": "Reported",
+    "areas_scale": "Local",
+    "themes": [
+      "Workload",
+      "Funding",
+      "Leadership"
+    ],
+    "researcher_validated": false,
+    "researcher_notes": "",
+    "origin": "AI interpretation",
+    "coded_at": "2026-09-10",
+    "matrix_position": []
+  },
+  {
+    "id": "R09-Q02",
+    "respondent_id": "R09",
+    "question_id": "Q02",
+    "original_response": "Ideally, it would mean a continuous exchange of ideas at both the faculty and student levels. Concretely, this would involve joint lectures and seminars—both online and in person—built in as a completely natural, permanent part of our programmes. It doesn't need to be overwhelming; just a few times per academic year would make a huge difference.",
+    "dator_primary": "Continued Growth",
+    "dator_secondary": [],
+    "dator_confidence": "High",
+    "dator_rationale": "A few joint sessions each year, embedded in existing programmes, are a deliberately modest extension rather than a paradigm change.",
+    "dator_quote": "just a few times per academic year",
+    "meaning_units": [
+      {
+        "text": "joint lectures and seminars—both online and in person—built in as a completely natural, permanent part of our programmes.",
+        "dator_codes": [
+          "Continued Growth"
+        ],
+        "rationale": "Adds regular hybrid sessions to existing programmes."
+      },
+      {
+        "text": "just a few times per academic year would make a huge difference.",
+        "dator_codes": [
+          "Continued Growth"
+        ],
+        "rationale": "Explicitly modest expansion, not fundamental institutional change."
+      }
+    ],
+    "areas_primary": "Architecting",
+    "areas_secondary": [],
+    "areas_confidence": "Medium",
+    "areas_rationale": "Proposes permanently embedding joint lectures and seminars in programmes; no implementation authority is shown.",
+    "areas_quote": "just a few times per academic year",
+    "areas_scope": "Proposed",
+    "areas_scale": "Local",
+    "themes": [
+      "Curriculum integration",
+      "Hybrid learning",
+      "Shared learning"
+    ],
+    "researcher_validated": false,
+    "researcher_notes": "",
+    "origin": "AI interpretation",
+    "coded_at": "2026-09-10",
+    "matrix_position": [
+      {
+        "dator": "Continued Growth",
+        "areas": "Architecting",
+        "match": "primary-primary"
+      }
+    ]
+  },
+  {
+    "id": "R09-Q03",
+    "respondent_id": "R09",
+    "question_id": "Q03",
+    "original_response": "Beyond embedding small elements into our courses on our own initiative, we need to find ways to get our university to back long-term international collaboration. The enthusiasm is definitely there—the faculty and students involved so far have been really engaged. But funding is always the hardest nut to crack: without dedicated resources, it’s almost impossible for staff to carve out the time needed to keep things going.",
+    "dator_primary": "Continued Growth",
+    "dator_secondary": [
+      "Discipline"
+    ],
+    "dator_confidence": "Medium",
+    "dator_rationale": "Embedding small elements continues existing activity; dedicated resources and long-term backing add a coordination condition.",
+    "dator_quote": "Beyond embedding small elements into our courses on our own initiative",
+    "meaning_units": [
+      {
+        "text": "Beyond embedding small elements into our courses on our own initiative",
+        "dator_codes": [
+          "Continued Growth"
+        ],
+        "rationale": "Small additions preserve existing courses."
+      },
+      {
+        "text": "we need to find ways to get our university to back long-term international collaboration.",
+        "dator_codes": [
+          "Discipline"
+        ],
+        "rationale": "Long-term institutional support becomes a collective condition."
+      },
+      {
+        "text": "without dedicated resources, it’s almost impossible for staff to carve out the time needed to keep things going.",
+        "dator_codes": [
+          "Discipline"
+        ],
+        "rationale": "Resource allocation is a condition of continuity, not an explicit prediction of collapse."
+      }
+    ],
+    "areas_primary": "Architecting",
+    "areas_secondary": [
+      "Shaped"
+    ],
+    "areas_confidence": "Medium",
+    "areas_rationale": "Reports embedding small elements on their own initiative, while sustained collaboration depends on university resources. Local design coexists with being shaped by funding.",
+    "areas_quote": "Beyond embedding small elements into our courses on our own initiative",
+    "areas_scope": "Mixed",
+    "areas_scale": "Local",
+    "themes": [
+      "Course pilots",
+      "Funding",
+      "Protected time"
+    ],
+    "researcher_validated": false,
+    "researcher_notes": "",
+    "origin": "AI interpretation",
+    "coded_at": "2026-09-10",
+    "matrix_position": [
+      {
+        "dator": "Continued Growth",
+        "areas": "Architecting",
+        "match": "primary-primary"
+      },
+      {
+        "dator": "Continued Growth",
+        "areas": "Shaped",
+        "match": "secondary-involved"
+      },
+      {
+        "dator": "Discipline",
+        "areas": "Architecting",
+        "match": "secondary-involved"
+      },
+      {
+        "dator": "Discipline",
+        "areas": "Shaped",
+        "match": "secondary-involved"
+      }
+    ]
+  },
+  {
+    "id": "R10-Q01",
+    "respondent_id": "R10",
+    "question_id": "Q01",
+    "original_response": "Workload for the departement working with internationalisation. As representative for the pedagogic unit in an artistic faculty I have experienced that we are not priority ",
+    "dator_primary": "Unclear / Not classifiable",
+    "dator_secondary": [],
+    "dator_confidence": "Low",
+    "dator_rationale": "Reports workload and low institutional priority rather than a future image.",
+    "dator_quote": "we are not priority",
+    "meaning_units": [
+      {
+        "text": "Workload for the departement working with internationalisation. As representative for the pedagogic unit in an artistic faculty I have experienced that we are not priority ",
+        "dator_codes": [],
+        "rationale": "Reports workload and low institutional priority rather than a future image."
+      }
+    ],
+    "areas_primary": "Shaped",
+    "areas_secondary": [],
+    "areas_confidence": "High",
+    "areas_rationale": "The pedagogic unit is deprioritised within faculty arrangements, limiting its room to act.",
+    "areas_quote": "we are not priority",
+    "areas_scope": "Reported",
+    "areas_scale": "Local",
+    "themes": [
+      "Workload",
+      "Institutional priorities"
+    ],
+    "researcher_validated": false,
+    "researcher_notes": "",
+    "origin": "AI interpretation",
+    "coded_at": "2026-09-10",
+    "matrix_position": []
+  },
+  {
+    "id": "R10-Q02",
+    "respondent_id": "R10",
+    "question_id": "Q02",
+    "original_response": "Ideal would be that it was a part of the yearly “weel” something well planned that could become a routine. Ideal would also be to have one person in our pedagogic unit working with collaboration as a part of their employment ",
+    "dator_primary": "Discipline",
+    "dator_secondary": [
+      "Continued Growth"
+    ],
+    "dator_confidence": "Medium",
+    "dator_rationale": "An annual routine and assigned employment time make planned collective provision central, with more reliable collaboration as the goal.",
+    "dator_quote": "as a part of their employment",
+    "meaning_units": [
+      {
+        "text": "a part of the yearly “weel” something well planned that could become a routine.",
+        "dator_codes": [
+          "Discipline",
+          "Continued Growth"
+        ],
+        "rationale": "Collective scheduling makes existing collaboration more regular."
+      },
+      {
+        "text": "one person in our pedagogic unit working with collaboration as a part of their employment",
+        "dator_codes": [
+          "Discipline"
+        ],
+        "rationale": "Collaboration needs an employment allocation."
+      }
+    ],
+    "areas_primary": "Architecting",
+    "areas_secondary": [],
+    "areas_confidence": "Medium",
+    "areas_rationale": "Proposes an annual schedule and a dedicated employee role at unit scale. It does not establish that either is funded.",
+    "areas_quote": "as a part of their employment",
+    "areas_scope": "Proposed",
+    "areas_scale": "Local",
+    "themes": [
+      "Coordination",
+      "Protected time",
+      "Curriculum integration"
+    ],
+    "researcher_validated": false,
+    "researcher_notes": "",
+    "origin": "AI interpretation",
+    "coded_at": "2026-09-10",
+    "matrix_position": [
+      {
+        "dator": "Discipline",
+        "areas": "Architecting",
+        "match": "primary-primary"
+      },
+      {
+        "dator": "Continued Growth",
+        "areas": "Architecting",
+        "match": "secondary-involved"
+      }
+    ]
+  },
+  {
+    "id": "R10-Q03",
+    "respondent_id": "R10",
+    "question_id": "Q03",
+    "original_response": "It would be easier if there was some kind of plattform, website, dedicated to art and teaching in and through art that connect different countries. I still like the idea of short workshops presented in different time slots that is possible to book for some students that would like to exchange knowledge. Sometimes we have only three students in a group and it would be lovely to have an exchange in and out.",
+    "dator_primary": "Continued Growth",
+    "dator_secondary": [],
+    "dator_confidence": "High",
+    "dator_rationale": "A subject-specific website and bookable workshops extend exchange opportunities; a platform alone does not reorganise education fundamentally.",
+    "dator_quote": "short workshops presented in different time slots",
+    "meaning_units": [
+      {
+        "text": "some kind of plattform, website, dedicated to art and teaching in and through art that connect different countries.",
+        "dator_codes": [
+          "Continued Growth"
+        ],
+        "rationale": "Digital infrastructure extends subject-specific exchange; no new institutional logic is described."
+      },
+      {
+        "text": "short workshops presented in different time slots",
+        "dator_codes": [
+          "Continued Growth"
+        ],
+        "rationale": "Bookable workshops improve access within familiar formats."
+      }
+    ],
+    "areas_primary": "Architecting",
+    "areas_secondary": [],
+    "areas_confidence": "Medium",
+    "areas_rationale": "Proposes shared digital infrastructure and bookable workshop slots. No implemented platform or brokerage role is evidenced.",
+    "areas_quote": "short workshops presented in different time slots",
+    "areas_scope": "Proposed",
+    "areas_scale": "Local",
+    "themes": [
+      "Digital infrastructure",
+      "Shared learning",
+      "Mobility"
+    ],
+    "researcher_validated": false,
+    "researcher_notes": "",
+    "origin": "AI interpretation",
+    "coded_at": "2026-09-10",
+    "matrix_position": [
+      {
+        "dator": "Continued Growth",
+        "areas": "Architecting",
+        "match": "primary-primary"
+      }
+    ]
+  },
+  {
+    "id": "R11-Q01",
+    "respondent_id": "R11",
+    "question_id": "Q01",
+    "original_response": "Internationality is highly encouraged at our institution, students have opportunities to go on Erasmus study, internship and short-term visits, and there are also other alternatives such as Nordplus, research projects, etc. Although most students take advantage of these opportunities, there are barriers. I could name internal and external. For example, there are students who are not confident in their abilities, are timid, lack confidence in going away from home for a longer period of time, and are not confident in their foreign language skills. On the other hand, many students work and study, so there are no opportunities to go abroad. In addition, the study load is also considerable. We also promote internationality remotely and at home through various projects, but this can be an additional workload for students.",
+    "dator_primary": "Unclear / Not classifiable",
+    "dator_secondary": [],
+    "dator_confidence": "Low",
+    "dator_rationale": "Current participation, confidence, employment and workload are described without a future direction or institutional collapse.",
+    "dator_quote": "We also promote internationality remotely and at home through various projects",
+    "meaning_units": [
+      {
+        "text": "students have opportunities to go on Erasmus study, internship and short-term visits",
+        "dator_codes": [],
+        "rationale": "Existing opportunities are reported rather than projected."
+      },
+      {
+        "text": "many students work and study, so there are no opportunities to go abroad.",
+        "dator_codes": [],
+        "rationale": "Current employment constraints limit participation."
+      },
+      {
+        "text": "We also promote internationality remotely and at home through various projects, but this can be an additional workload for students.",
+        "dator_codes": [],
+        "rationale": "Existing alternatives also carry workload costs; this is not yet a future scenario."
+      }
+    ],
+    "areas_primary": "Shaped",
+    "areas_secondary": [
+      "Architecting",
+      "Avoiding"
+    ],
+    "areas_confidence": "Low",
+    "areas_rationale": "Students face work and confidence constraints. The institution also provides programmes and remote/home projects that bypass travel barriers. Avoiding is a tentative reading of that bypass, not disengagement from international learning.",
+    "areas_quote": "We also promote internationality remotely and at home through various projects",
+    "areas_scope": "Reported",
+    "areas_scale": "Local",
+    "themes": [
+      "Care and motivation",
+      "Workload",
+      "Language",
+      "Access alternatives"
+    ],
+    "researcher_validated": false,
+    "researcher_notes": "",
+    "origin": "AI interpretation",
+    "coded_at": "2026-09-10",
+    "matrix_position": []
+  },
+  {
+    "id": "R11-Q02",
+    "respondent_id": "R11",
+    "question_id": "Q02",
+    "original_response": "In an ideal situation, internationality is imagined as the fact that every student would have international experience, would like to get acquainted with different education systems, schools, and their students, would go to study or do an internship in another country at least once during the study year, and if they cannot go, they would actively participate in distance sessions, trainings, and webinars where they could communicate with others. The same goes for teachers; we ourselves must have opportunities to develop our international experience through joint scientific and research projects.",
+    "dator_primary": "Continued Growth",
+    "dator_secondary": [],
+    "dator_confidence": "High",
+    "dator_rationale": "Universal international experience and annual mobility expand existing participation. Remote sessions extend access without replacing current institutions.",
+    "dator_quote": "if they cannot go, they would actively participate in distance sessions",
+    "meaning_units": [
+      {
+        "text": "every student would have international experience",
+        "dator_codes": [
+          "Continued Growth"
+        ],
+        "rationale": "Universal participation extends the existing ambition."
+      },
+      {
+        "text": "if they cannot go, they would actively participate in distance sessions, trainings, and webinars",
+        "dator_codes": [
+          "Continued Growth"
+        ],
+        "rationale": "Remote participation broadens access without replacing institutions."
+      },
+      {
+        "text": "opportunities to develop our international experience through joint scientific and research projects.",
+        "dator_codes": [
+          "Continued Growth"
+        ],
+        "rationale": "Teachers extend existing research cooperation."
+      }
+    ],
+    "areas_primary": "Avoiding",
+    "areas_secondary": [],
+    "areas_confidence": "Low",
+    "areas_rationale": "Proposes distance participation when travel is impossible, bypassing physical mobility requirements. This is an alternative participation route rather than rejection of internationalisation.",
+    "areas_quote": "if they cannot go, they would actively participate in distance sessions",
+    "areas_scope": "Proposed",
+    "areas_scale": "Local",
+    "themes": [
+      "Mobility",
+      "Access alternatives",
+      "Shared learning"
+    ],
+    "researcher_validated": false,
+    "researcher_notes": "",
+    "origin": "AI interpretation",
+    "coded_at": "2026-09-10",
+    "matrix_position": [
+      {
+        "dator": "Continued Growth",
+        "areas": "Avoiding",
+        "match": "primary-primary"
+      }
+    ]
+  },
+  {
+    "id": "R11-Q03",
+    "respondent_id": "R11",
+    "question_id": "Q03",
+    "original_response": "This issue is currently being actively discussed in our institution. There are all kinds of institutional incentives; students are motivated both financially and otherwise. However, the barriers remain the same, so it is very important to motivate students, advise them, and involve them in projects that are useful and interesting and do not take up a lot of study time. For example, the EDDA camp was a project in which students gained a unique international experience and benefits.",
+    "dator_primary": "Continued Growth",
+    "dator_secondary": [],
+    "dator_confidence": "High",
+    "dator_rationale": "Advice, incentives and useful projects seek to improve participation within existing programmes rather than change their organising logic.",
+    "dator_quote": "However, the barriers remain the same",
+    "meaning_units": [
+      {
+        "text": "There are all kinds of institutional incentives; students are motivated both financially and otherwise.",
+        "dator_codes": [],
+        "rationale": "Present institutional action establishes context, not a future image."
+      },
+      {
+        "text": "it is very important to motivate students, advise them, and involve them in projects that are useful and interesting and do not take up a lot of study time.",
+        "dator_codes": [
+          "Continued Growth"
+        ],
+        "rationale": "Improves existing participation practices while accommodating workload."
+      },
+      {
+        "text": "the EDDA camp was a project in which students gained a unique international experience and benefits.",
+        "dator_codes": [],
+        "rationale": "A reported example supports the proposed approach but is not a future archetype itself."
+      }
+    ],
+    "areas_primary": "Architecting",
+    "areas_secondary": [
+      "Shaped"
+    ],
+    "areas_confidence": "Medium",
+    "areas_rationale": "Reports institutional incentives and a completed EDDA camp, but says barriers remain. Institutions can organise local opportunities without removing students’ constraints.",
+    "areas_quote": "However, the barriers remain the same",
+    "areas_scope": "Mixed",
+    "areas_scale": "Local",
+    "themes": [
+      "Care and motivation",
+      "Access alternatives",
+      "Course pilots"
+    ],
+    "researcher_validated": false,
+    "researcher_notes": "",
+    "origin": "AI interpretation",
+    "coded_at": "2026-09-10",
+    "matrix_position": [
+      {
+        "dator": "Continued Growth",
+        "areas": "Architecting",
+        "match": "primary-primary"
+      },
+      {
+        "dator": "Continued Growth",
+        "areas": "Shaped",
+        "match": "secondary-involved"
+      }
+    ]
+  }
+]

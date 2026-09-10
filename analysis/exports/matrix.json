@@ -1,0 +1,802 @@
+[
+  {
+    "dator": "Continued Growth",
+    "areas": "Architecting",
+    "count": 10,
+    "denominator": 15,
+    "percent": 66.7,
+    "primary_primary": 6,
+    "secondary_involved": 4,
+    "respondents": [
+      "R01",
+      "R02",
+      "R03",
+      "R08",
+      "R09",
+      "R10",
+      "R11"
+    ],
+    "ids": [
+      "R01-Q03",
+      "R02-Q03",
+      "R03-Q02",
+      "R03-Q03",
+      "R08-Q02",
+      "R09-Q02",
+      "R09-Q03",
+      "R10-Q02",
+      "R10-Q03",
+      "R11-Q03"
+    ],
+    "themes": [
+      {
+        "theme": "Protected time",
+        "count": 4
+      },
+      {
+        "theme": "Course pilots",
+        "count": 3
+      },
+      {
+        "theme": "Curriculum integration",
+        "count": 3
+      },
+      {
+        "theme": "Funding",
+        "count": 3
+      },
+      {
+        "theme": "Coordination",
+        "count": 2
+      },
+      {
+        "theme": "Hybrid learning",
+        "count": 2
+      },
+      {
+        "theme": "Mobility",
+        "count": 2
+      },
+      {
+        "theme": "Shared learning",
+        "count": 2
+      },
+      {
+        "theme": "Access alternatives",
+        "count": 1
+      },
+      {
+        "theme": "Administrative support",
+        "count": 1
+      },
+      {
+        "theme": "Care and motivation",
+        "count": 1
+      },
+      {
+        "theme": "Credit recognition",
+        "count": 1
+      },
+      {
+        "theme": "Digital infrastructure",
+        "count": 1
+      },
+      {
+        "theme": "Joint courses",
+        "count": 1
+      },
+      {
+        "theme": "Language",
+        "count": 1
+      },
+      {
+        "theme": "Partnerships",
+        "count": 1
+      }
+    ],
+    "confidence": [
+      {
+        "level": "High",
+        "count": 0
+      },
+      {
+        "level": "Medium",
+        "count": 10
+      },
+      {
+        "level": "Low",
+        "count": 0
+      }
+    ],
+    "quotations": [
+      {
+        "id": "R01-Q03",
+        "quote": "time within our studies and work commitments"
+      },
+      {
+        "id": "R02-Q03",
+        "quote": "give teachers/researchers time in their schedule"
+      }
+    ]
+  },
+  {
+    "dator": "Continued Growth",
+    "areas": "Resisting",
+    "count": 0,
+    "denominator": 15,
+    "percent": 0,
+    "primary_primary": 0,
+    "secondary_involved": 0,
+    "respondents": [],
+    "ids": [],
+    "themes": [],
+    "confidence": [
+      {
+        "level": "High",
+        "count": 0
+      },
+      {
+        "level": "Medium",
+        "count": 0
+      },
+      {
+        "level": "Low",
+        "count": 0
+      }
+    ],
+    "quotations": []
+  },
+  {
+    "dator": "Continued Growth",
+    "areas": "Exploiting",
+    "count": 0,
+    "denominator": 15,
+    "percent": 0,
+    "primary_primary": 0,
+    "secondary_involved": 0,
+    "respondents": [],
+    "ids": [],
+    "themes": [],
+    "confidence": [
+      {
+        "level": "High",
+        "count": 0
+      },
+      {
+        "level": "Medium",
+        "count": 0
+      },
+      {
+        "level": "Low",
+        "count": 0
+      }
+    ],
+    "quotations": []
+  },
+  {
+    "dator": "Continued Growth",
+    "areas": "Avoiding",
+    "count": 1,
+    "denominator": 15,
+    "percent": 6.7,
+    "primary_primary": 1,
+    "secondary_involved": 0,
+    "respondents": [
+      "R11"
+    ],
+    "ids": [
+      "R11-Q02"
+    ],
+    "themes": [
+      {
+        "theme": "Access alternatives",
+        "count": 1
+      },
+      {
+        "theme": "Mobility",
+        "count": 1
+      },
+      {
+        "theme": "Shared learning",
+        "count": 1
+      }
+    ],
+    "confidence": [
+      {
+        "level": "High",
+        "count": 0
+      },
+      {
+        "level": "Medium",
+        "count": 0
+      },
+      {
+        "level": "Low",
+        "count": 1
+      }
+    ],
+    "quotations": [
+      {
+        "id": "R11-Q02",
+        "quote": "if they cannot go, they would actively participate in distance sessions"
+      }
+    ]
+  },
+  {
+    "dator": "Continued Growth",
+    "areas": "Shaped",
+    "count": 2,
+    "denominator": 15,
+    "percent": 13.3,
+    "primary_primary": 0,
+    "secondary_involved": 2,
+    "respondents": [
+      "R09",
+      "R11"
+    ],
+    "ids": [
+      "R09-Q03",
+      "R11-Q03"
+    ],
+    "themes": [
+      {
+        "theme": "Course pilots",
+        "count": 2
+      },
+      {
+        "theme": "Access alternatives",
+        "count": 1
+      },
+      {
+        "theme": "Care and motivation",
+        "count": 1
+      },
+      {
+        "theme": "Funding",
+        "count": 1
+      },
+      {
+        "theme": "Protected time",
+        "count": 1
+      }
+    ],
+    "confidence": [
+      {
+        "level": "High",
+        "count": 0
+      },
+      {
+        "level": "Medium",
+        "count": 2
+      },
+      {
+        "level": "Low",
+        "count": 0
+      }
+    ],
+    "quotations": [
+      {
+        "id": "R09-Q03",
+        "quote": "Beyond embedding small elements into our courses on our own initiative"
+      },
+      {
+        "id": "R11-Q03",
+        "quote": "However, the barriers remain the same"
+      }
+    ]
+  },
+  {
+    "dator": "Collapse",
+    "areas": "Architecting",
+    "count": 0,
+    "denominator": 15,
+    "percent": 0,
+    "primary_primary": 0,
+    "secondary_involved": 0,
+    "respondents": [],
+    "ids": [],
+    "themes": [],
+    "confidence": [
+      {
+        "level": "High",
+        "count": 0
+      },
+      {
+        "level": "Medium",
+        "count": 0
+      },
+      {
+        "level": "Low",
+        "count": 0
+      }
+    ],
+    "quotations": []
+  },
+  {
+    "dator": "Collapse",
+    "areas": "Resisting",
+    "count": 0,
+    "denominator": 15,
+    "percent": 0,
+    "primary_primary": 0,
+    "secondary_involved": 0,
+    "respondents": [],
+    "ids": [],
+    "themes": [],
+    "confidence": [
+      {
+        "level": "High",
+        "count": 0
+      },
+      {
+        "level": "Medium",
+        "count": 0
+      },
+      {
+        "level": "Low",
+        "count": 0
+      }
+    ],
+    "quotations": []
+  },
+  {
+    "dator": "Collapse",
+    "areas": "Exploiting",
+    "count": 0,
+    "denominator": 15,
+    "percent": 0,
+    "primary_primary": 0,
+    "secondary_involved": 0,
+    "respondents": [],
+    "ids": [],
+    "themes": [],
+    "confidence": [
+      {
+        "level": "High",
+        "count": 0
+      },
+      {
+        "level": "Medium",
+        "count": 0
+      },
+      {
+        "level": "Low",
+        "count": 0
+      }
+    ],
+    "quotations": []
+  },
+  {
+    "dator": "Collapse",
+    "areas": "Avoiding",
+    "count": 0,
+    "denominator": 15,
+    "percent": 0,
+    "primary_primary": 0,
+    "secondary_involved": 0,
+    "respondents": [],
+    "ids": [],
+    "themes": [],
+    "confidence": [
+      {
+        "level": "High",
+        "count": 0
+      },
+      {
+        "level": "Medium",
+        "count": 0
+      },
+      {
+        "level": "Low",
+        "count": 0
+      }
+    ],
+    "quotations": []
+  },
+  {
+    "dator": "Collapse",
+    "areas": "Shaped",
+    "count": 0,
+    "denominator": 15,
+    "percent": 0,
+    "primary_primary": 0,
+    "secondary_involved": 0,
+    "respondents": [],
+    "ids": [],
+    "themes": [],
+    "confidence": [
+      {
+        "level": "High",
+        "count": 0
+      },
+      {
+        "level": "Medium",
+        "count": 0
+      },
+      {
+        "level": "Low",
+        "count": 0
+      }
+    ],
+    "quotations": []
+  },
+  {
+    "dator": "Discipline",
+    "areas": "Architecting",
+    "count": 10,
+    "denominator": 15,
+    "percent": 66.7,
+    "primary_primary": 8,
+    "secondary_involved": 2,
+    "respondents": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R06",
+      "R07",
+      "R08",
+      "R09",
+      "R10"
+    ],
+    "ids": [
+      "R01-Q03",
+      "R02-Q03",
+      "R03-Q02",
+      "R04-Q03",
+      "R06-Q03",
+      "R07-Q03",
+      "R08-Q02",
+      "R08-Q03",
+      "R09-Q03",
+      "R10-Q02"
+    ],
+    "themes": [
+      {
+        "theme": "Protected time",
+        "count": 6
+      },
+      {
+        "theme": "Administrative support",
+        "count": 4
+      },
+      {
+        "theme": "Coordination",
+        "count": 3
+      },
+      {
+        "theme": "Curriculum integration",
+        "count": 3
+      },
+      {
+        "theme": "Partnerships",
+        "count": 3
+      },
+      {
+        "theme": "Funding",
+        "count": 2
+      },
+      {
+        "theme": "Course pilots",
+        "count": 1
+      },
+      {
+        "theme": "Credit recognition",
+        "count": 1
+      },
+      {
+        "theme": "Hybrid learning",
+        "count": 1
+      },
+      {
+        "theme": "Joint courses",
+        "count": 1
+      },
+      {
+        "theme": "Language",
+        "count": 1
+      },
+      {
+        "theme": "Leadership",
+        "count": 1
+      },
+      {
+        "theme": "Mobility",
+        "count": 1
+      },
+      {
+        "theme": "Shared rules",
+        "count": 1
+      }
+    ],
+    "confidence": [
+      {
+        "level": "High",
+        "count": 0
+      },
+      {
+        "level": "Medium",
+        "count": 10
+      },
+      {
+        "level": "Low",
+        "count": 0
+      }
+    ],
+    "quotations": [
+      {
+        "id": "R01-Q03",
+        "quote": "time within our studies and work commitments"
+      },
+      {
+        "id": "R02-Q03",
+        "quote": "give teachers/researchers time in their schedule"
+      }
+    ]
+  },
+  {
+    "dator": "Discipline",
+    "areas": "Resisting",
+    "count": 0,
+    "denominator": 15,
+    "percent": 0,
+    "primary_primary": 0,
+    "secondary_involved": 0,
+    "respondents": [],
+    "ids": [],
+    "themes": [],
+    "confidence": [
+      {
+        "level": "High",
+        "count": 0
+      },
+      {
+        "level": "Medium",
+        "count": 0
+      },
+      {
+        "level": "Low",
+        "count": 0
+      }
+    ],
+    "quotations": []
+  },
+  {
+    "dator": "Discipline",
+    "areas": "Exploiting",
+    "count": 0,
+    "denominator": 15,
+    "percent": 0,
+    "primary_primary": 0,
+    "secondary_involved": 0,
+    "respondents": [],
+    "ids": [],
+    "themes": [],
+    "confidence": [
+      {
+        "level": "High",
+        "count": 0
+      },
+      {
+        "level": "Medium",
+        "count": 0
+      },
+      {
+        "level": "Low",
+        "count": 0
+      }
+    ],
+    "quotations": []
+  },
+  {
+    "dator": "Discipline",
+    "areas": "Avoiding",
+    "count": 0,
+    "denominator": 15,
+    "percent": 0,
+    "primary_primary": 0,
+    "secondary_involved": 0,
+    "respondents": [],
+    "ids": [],
+    "themes": [],
+    "confidence": [
+      {
+        "level": "High",
+        "count": 0
+      },
+      {
+        "level": "Medium",
+        "count": 0
+      },
+      {
+        "level": "Low",
+        "count": 0
+      }
+    ],
+    "quotations": []
+  },
+  {
+    "dator": "Discipline",
+    "areas": "Shaped",
+    "count": 1,
+    "denominator": 15,
+    "percent": 6.7,
+    "primary_primary": 0,
+    "secondary_involved": 1,
+    "respondents": [
+      "R09"
+    ],
+    "ids": [
+      "R09-Q03"
+    ],
+    "themes": [
+      {
+        "theme": "Course pilots",
+        "count": 1
+      },
+      {
+        "theme": "Funding",
+        "count": 1
+      },
+      {
+        "theme": "Protected time",
+        "count": 1
+      }
+    ],
+    "confidence": [
+      {
+        "level": "High",
+        "count": 0
+      },
+      {
+        "level": "Medium",
+        "count": 1
+      },
+      {
+        "level": "Low",
+        "count": 0
+      }
+    ],
+    "quotations": [
+      {
+        "id": "R09-Q03",
+        "quote": "Beyond embedding small elements into our courses on our own initiative"
+      }
+    ]
+  },
+  {
+    "dator": "Transformation",
+    "areas": "Architecting",
+    "count": 0,
+    "denominator": 15,
+    "percent": 0,
+    "primary_primary": 0,
+    "secondary_involved": 0,
+    "respondents": [],
+    "ids": [],
+    "themes": [],
+    "confidence": [
+      {
+        "level": "High",
+        "count": 0
+      },
+      {
+        "level": "Medium",
+        "count": 0
+      },
+      {
+        "level": "Low",
+        "count": 0
+      }
+    ],
+    "quotations": []
+  },
+  {
+    "dator": "Transformation",
+    "areas": "Resisting",
+    "count": 0,
+    "denominator": 15,
+    "percent": 0,
+    "primary_primary": 0,
+    "secondary_involved": 0,
+    "respondents": [],
+    "ids": [],
+    "themes": [],
+    "confidence": [
+      {
+        "level": "High",
+        "count": 0
+      },
+      {
+        "level": "Medium",
+        "count": 0
+      },
+      {
+        "level": "Low",
+        "count": 0
+      }
+    ],
+    "quotations": []
+  },
+  {
+    "dator": "Transformation",
+    "areas": "Exploiting",
+    "count": 0,
+    "denominator": 15,
+    "percent": 0,
+    "primary_primary": 0,
+    "secondary_involved": 0,
+    "respondents": [],
+    "ids": [],
+    "themes": [],
+    "confidence": [
+      {
+        "level": "High",
+        "count": 0
+      },
+      {
+        "level": "Medium",
+        "count": 0
+      },
+      {
+        "level": "Low",
+        "count": 0
+      }
+    ],
+    "quotations": []
+  },
+  {
+    "dator": "Transformation",
+    "areas": "Avoiding",
+    "count": 0,
+    "denominator": 15,
+    "percent": 0,
+    "primary_primary": 0,
+    "secondary_involved": 0,
+    "respondents": [],
+    "ids": [],
+    "themes": [],
+    "confidence": [
+      {
+        "level": "High",
+        "count": 0
+      },
+      {
+        "level": "Medium",
+        "count": 0
+      },
+      {
+        "level": "Low",
+        "count": 0
+      }
+    ],
+    "quotations": []
+  },
+  {
+    "dator": "Transformation",
+    "areas": "Shaped",
+    "count": 0,
+    "denominator": 15,
+    "percent": 0,
+    "primary_primary": 0,
+    "secondary_involved": 0,
+    "respondents": [],
+    "ids": [],
+    "themes": [],
+    "confidence": [
+      {
+        "level": "High",
+        "count": 0
+      },
+      {
+        "level": "Medium",
+        "count": 0
+      },
+      {
+        "level": "Low",
+        "count": 0
+      }
+    ],
+    "quotations": []
+  }
+]

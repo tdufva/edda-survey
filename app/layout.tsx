@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Instrument_Sans, Newsreader } from "next/font/google";
 import "./globals.css";
+import ResearchProvider from "./research-provider";
 
 const instrument = Instrument_Sans({ variable: "--font-instrument", subsets: ["latin"] });
 const newsreader = Newsreader({
@@ -28,5 +29,5 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en"><body className={`${instrument.variable} ${newsreader.variable}`}>{children}</body></html>;
+  return <html lang="en"><body className={`${instrument.variable} ${newsreader.variable}`}><ResearchProvider>{children}</ResearchProvider></body></html>;
 }

@@ -10,7 +10,7 @@ const readableResponsesHtml = responsesHtml.replaceAll("<!-- -->", "");
 test("the public page contains the analysis and transparent denominator", () => {
   assert.match(readableHtml, /EDDA Survey/);
   assert.match(readableHtml, /Time, workload and stress/);
-  assert.match(readableHtml, /4\/7/);
+  assert.match(readableHtml, /8\/11/);
   assert.match(readableHtml, /Data Feminism/);
   assert.match(readableHtml, /Themes overlap/);
   assert.match(readableHtml, /href="\/edda-survey\/responses\/"/);
@@ -29,4 +29,21 @@ test("the response reader contains all respondents and all original answers", ()
   assert.match(readableResponsesHtml, /The fact that there is no time allocated in our service planning/);
   assert.match(readableResponsesHtml, /Know thy neighbour/);
   assert.match(readableResponsesHtml, /name="robots" content="noindex, nofollow"/);
+});
+
+for (const [route, title] of [['areas', 'Who can act'], ['dator', 'What futures'], ['comparison', 'Future orientation'], ['profiles', 'Recurring combined'], ['validation', 'Read, question']]) {
+  test(`${route} is rendered with analysis, review and export controls`, async () => {
+    const page = await readFile(new URL(`../out/${route}/index.html`, import.meta.url), 'utf8');
+    assert.ok(page.includes(title));
+    assert.ok(page.includes('Save review file'));
+    assert.ok(page.includes('Open review file'));
+    assert.ok(page.includes('Framework limitations and analytical tensions'));
+    assert.ok(page.includes('Combined dataset CSV'));
+  });
+}
+test('new respondents and accessible 4 by 5 matrix are exported', async () => {
+  assert.match(readableResponsesHtml, /respondent-11/);
+  assert.match(readableResponsesHtml, /EDDA camp/);
+  const matrix = await readFile(new URL('../out/comparison/index.html', import.meta.url), 'utf8');
+  assert.equal((matrix.match(/aria-pressed="false"/g) || []).length, 20);
 });

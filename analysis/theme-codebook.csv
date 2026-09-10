@@ -1,16 +1,16 @@
-question,theme,count,denominator,percent,working definition
-Barriers,"Time, workload and stress",4,7,57,"International work competes with full schedules or creates additional stress."
-Barriers,"Language, curriculum and structural fit",4,7,57,"Language policy, national curricula or programme structures limit participation."
-Barriers,"Funding and financial priorities",3,7,43,"Money or financial prioritisation constrains time, travel or development."
-Barriers,"Motivation, curiosity and personal obligations",2,7,29,"Interest, encouragement or responsibilities outside the institution shape participation."
-Barriers,"Unequal or unclear terms of internationalisation",2,7,29,"The meaning or language hierarchy of internationalisation is questioned."
-Ideal,"Embedded, regular and institution-wide",3,7,43,"Internationalisation is part of ordinary teaching, study and research."
-Ideal,"Reciprocal mobility and face-to-face exchange",3,7,43,"Students or staff meet and learn in one another's contexts."
-Ideal,"Collaboration, co-development and shared learning",3,7,43,"Partners build courses or knowledge together."
-Ideal,"Pluralism, context and respectful inclusion",3,7,43,"Internationalisation supports many voices, contextual understanding and academic freedom."
-Ideal,"Flexible, hybrid joint-course formats",1,7,14,"Joint study combines online work with an intensive hosted period."
-Conditions,"Protected time and human capacity",3,7,43,"Workload time or capable people are allocated to international work."
-Conditions,"Leadership and administrative infrastructure",3,7,43,"Leadership, tools, contacts or administrative expertise support participation."
-Conditions,"Partnerships and collegial networks",3,7,43,"Durable relationships and recurring meetings sustain collaboration."
-Conditions,"Dedicated funding",2,7,29,"Funding supports development, released time or other participation costs."
-Conditions,"Curriculum integration and piloting",2,7,29,"International work is tested and built into curricula."
+question,theme,count,denominator,percent,working definition,answer_ids
+Barriers,"Time, workload and stress",8,11,73,International work competes with full schedules or creates additional stress.,R01-Q01;R02-Q01;R06-Q01;R07-Q01;R08-Q01;R09-Q01;R10-Q01;R11-Q01
+Barriers,"Language, curriculum and structural fit",6,11,55,"Language policy, national curricula or programme structures limit participation.",R03-Q01;R04-Q01;R05-Q01;R07-Q01;R08-Q01;R11-Q01
+Barriers,Funding and financial priorities,4,11,36,"Money or financial prioritisation constrains time, travel or development.",R01-Q01;R02-Q01;R06-Q01;R09-Q01
+Barriers,"Motivation, curiosity and personal obligations",3,11,27,"Interest, encouragement or responsibilities outside the institution shape participation.",R05-Q01;R07-Q01;R11-Q01
+Barriers,Unequal or unclear terms of internationalisation,2,11,18,The meaning or language hierarchy of internationalisation is questioned.,R04-Q01;R06-Q01
+Ideal,"Embedded, regular and institution-wide",6,11,55,"Internationalisation is part of ordinary teaching, study and research.",R01-Q02;R02-Q02;R07-Q02;R08-Q02;R09-Q02;R10-Q02
+Ideal,Reciprocal mobility and face-to-face exchange,5,11,45,Students or staff meet and learn in one another's contexts.,R02-Q02;R05-Q02;R07-Q02;R08-Q02;R11-Q02
+Ideal,"Collaboration, co-development and shared learning",5,11,45,Partners build courses or knowledge together.,R03-Q02;R06-Q02;R07-Q02;R09-Q02;R11-Q02
+Ideal,"Pluralism, context and respectful inclusion",3,11,27,"Internationalisation supports many voices, contextual understanding and academic freedom.",R02-Q02;R04-Q02;R06-Q02
+Ideal,"Flexible, hybrid joint-course formats",2,11,18,Joint study combines online work with an intensive hosted period.,R03-Q02;R09-Q02
+Conditions,Protected time and human capacity,5,11,45,Workload time or capable people are allocated to international work.,R01-Q03;R02-Q03;R06-Q03;R08-Q03;R09-Q03
+Conditions,Leadership and administrative infrastructure,4,11,36,"Leadership, tools, contacts or administrative expertise support participation.",R02-Q03;R04-Q03;R06-Q03;R08-Q03
+Conditions,Partnerships and collegial networks,4,11,36,Durable relationships and recurring meetings sustain collaboration.,R01-Q03;R04-Q03;R05-Q03;R10-Q03
+Conditions,Dedicated funding,3,11,27,"Funding supports development, released time or other participation costs.",R02-Q03;R03-Q03;R09-Q03
+Conditions,Curriculum integration and piloting,3,11,27,International work is tested and built into curricula.,R03-Q03;R07-Q03;R09-Q03

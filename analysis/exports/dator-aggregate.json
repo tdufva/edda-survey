@@ -1,0 +1,325 @@
+{
+  "denominator": 33,
+  "coded": 22,
+  "unclear": 11,
+  "distribution": [
+    {
+      "archetype": "Continued Growth",
+      "primary": 13,
+      "secondary": 4,
+      "associated": 17,
+      "percent_all_answers": 51.5,
+      "percent_coded_answers": 77.3,
+      "themes": [
+        {
+          "theme": "Mobility",
+          "count": 6
+        },
+        {
+          "theme": "Curriculum integration",
+          "count": 5
+        },
+        {
+          "theme": "Shared learning",
+          "count": 5
+        },
+        {
+          "theme": "Protected time",
+          "count": 4
+        },
+        {
+          "theme": "Course pilots",
+          "count": 3
+        },
+        {
+          "theme": "Funding",
+          "count": 3
+        },
+        {
+          "theme": "Partnerships",
+          "count": 3
+        },
+        {
+          "theme": "Access alternatives",
+          "count": 2
+        },
+        {
+          "theme": "Context and plurality",
+          "count": 2
+        },
+        {
+          "theme": "Coordination",
+          "count": 2
+        },
+        {
+          "theme": "Hybrid learning",
+          "count": 2
+        },
+        {
+          "theme": "Administrative support",
+          "count": 1
+        },
+        {
+          "theme": "Care and motivation",
+          "count": 1
+        },
+        {
+          "theme": "Credit recognition",
+          "count": 1
+        },
+        {
+          "theme": "Digital infrastructure",
+          "count": 1
+        },
+        {
+          "theme": "Joint courses",
+          "count": 1
+        },
+        {
+          "theme": "Language",
+          "count": 1
+        }
+      ],
+      "quotations": [
+        {
+          "id": "R01-Q02",
+          "quote": "a natural and straightforward part"
+        },
+        {
+          "id": "R01-Q03",
+          "quote": "time within our studies and work commitments"
+        },
+        {
+          "id": "R02-Q02",
+          "quote": "preferably face-to-face exchange"
+        }
+      ]
+    },
+    {
+      "archetype": "Collapse",
+      "primary": 0,
+      "secondary": 0,
+      "associated": 0,
+      "percent_all_answers": 0,
+      "percent_coded_answers": 0,
+      "themes": [],
+      "quotations": []
+    },
+    {
+      "archetype": "Discipline",
+      "primary": 9,
+      "secondary": 2,
+      "associated": 11,
+      "percent_all_answers": 33.3,
+      "percent_coded_answers": 50,
+      "themes": [
+        {
+          "theme": "Protected time",
+          "count": 6
+        },
+        {
+          "theme": "Administrative support",
+          "count": 4
+        },
+        {
+          "theme": "Coordination",
+          "count": 3
+        },
+        {
+          "theme": "Curriculum integration",
+          "count": 3
+        },
+        {
+          "theme": "Partnerships",
+          "count": 3
+        },
+        {
+          "theme": "Funding",
+          "count": 2
+        },
+        {
+          "theme": "Academic freedom",
+          "count": 1
+        },
+        {
+          "theme": "Context and plurality",
+          "count": 1
+        },
+        {
+          "theme": "Course pilots",
+          "count": 1
+        },
+        {
+          "theme": "Credit recognition",
+          "count": 1
+        },
+        {
+          "theme": "Hybrid learning",
+          "count": 1
+        },
+        {
+          "theme": "Joint courses",
+          "count": 1
+        },
+        {
+          "theme": "Language",
+          "count": 1
+        },
+        {
+          "theme": "Leadership",
+          "count": 1
+        },
+        {
+          "theme": "Mobility",
+          "count": 1
+        },
+        {
+          "theme": "Shared rules",
+          "count": 1
+        }
+      ],
+      "quotations": [
+        {
+          "id": "R01-Q03",
+          "quote": "time within our studies and work commitments"
+        },
+        {
+          "id": "R02-Q03",
+          "quote": "give teachers/researchers time in their schedule"
+        },
+        {
+          "id": "R03-Q02",
+          "quote": "elective courses that are co-developed by the participating universities"
+        }
+      ]
+    },
+    {
+      "archetype": "Transformation",
+      "primary": 0,
+      "secondary": 0,
+      "associated": 0,
+      "percent_all_answers": 0,
+      "percent_coded_answers": 0,
+      "themes": [],
+      "quotations": []
+    }
+  ],
+  "by_question": [
+    {
+      "question_id": "Q01",
+      "total": 11,
+      "counts": [
+        {
+          "archetype": "Continued Growth",
+          "count": 0
+        },
+        {
+          "archetype": "Collapse",
+          "count": 0
+        },
+        {
+          "archetype": "Discipline",
+          "count": 0
+        },
+        {
+          "archetype": "Transformation",
+          "count": 0
+        },
+        {
+          "archetype": "Unclear / Not classifiable",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "question_id": "Q02",
+      "total": 11,
+      "counts": [
+        {
+          "archetype": "Continued Growth",
+          "count": 8
+        },
+        {
+          "archetype": "Collapse",
+          "count": 0
+        },
+        {
+          "archetype": "Discipline",
+          "count": 3
+        },
+        {
+          "archetype": "Transformation",
+          "count": 0
+        },
+        {
+          "archetype": "Unclear / Not classifiable",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "question_id": "Q03",
+      "total": 11,
+      "counts": [
+        {
+          "archetype": "Continued Growth",
+          "count": 5
+        },
+        {
+          "archetype": "Collapse",
+          "count": 0
+        },
+        {
+          "archetype": "Discipline",
+          "count": 6
+        },
+        {
+          "archetype": "Transformation",
+          "count": 0
+        },
+        {
+          "archetype": "Unclear / Not classifiable",
+          "count": 0
+        }
+      ]
+    }
+  ],
+  "hybrids": [
+    {
+      "hybrid": "Continued Growth + Discipline",
+      "count": 6
+    }
+  ],
+  "cooccurrence": [
+    {
+      "a": "Continued Growth",
+      "b": "Collapse",
+      "count": 0
+    },
+    {
+      "a": "Continued Growth",
+      "b": "Discipline",
+      "count": 6
+    },
+    {
+      "a": "Continued Growth",
+      "b": "Transformation",
+      "count": 0
+    },
+    {
+      "a": "Collapse",
+      "b": "Discipline",
+      "count": 0
+    },
+    {
+      "a": "Collapse",
+      "b": "Transformation",
+      "count": 0
+    },
+    {
+      "a": "Discipline",
+      "b": "Transformation",
+      "count": 0
+    }
+  ]
+}

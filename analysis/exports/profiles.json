@@ -1,0 +1,185 @@
+[
+  {
+    "title": "Continued Growth + Architecting",
+    "count": 6,
+    "ids": [
+      "R03-Q02",
+      "R03-Q03",
+      "R09-Q02",
+      "R09-Q03",
+      "R10-Q03",
+      "R11-Q03"
+    ],
+    "themes": [
+      {
+        "theme": "Course pilots",
+        "count": 3
+      },
+      {
+        "theme": "Funding",
+        "count": 2
+      },
+      {
+        "theme": "Hybrid learning",
+        "count": 2
+      },
+      {
+        "theme": "Shared learning",
+        "count": 2
+      },
+      {
+        "theme": "Access alternatives",
+        "count": 1
+      },
+      {
+        "theme": "Care and motivation",
+        "count": 1
+      },
+      {
+        "theme": "Curriculum integration",
+        "count": 1
+      },
+      {
+        "theme": "Digital infrastructure",
+        "count": 1
+      },
+      {
+        "theme": "Joint courses",
+        "count": 1
+      },
+      {
+        "theme": "Language",
+        "count": 1
+      },
+      {
+        "theme": "Mobility",
+        "count": 1
+      },
+      {
+        "theme": "Protected time",
+        "count": 1
+      }
+    ],
+    "quotations": [
+      {
+        "id": "R03-Q02",
+        "quote": "elective courses that are co-developed by the participating universities"
+      },
+      {
+        "id": "R03-Q03",
+        "quote": "developing these courses and test them out."
+      }
+    ],
+    "description": "6 answers combine Continued Growth as their dominant future orientation with Architecting as their primary action position.",
+    "interpretation": "These answers couple expanded existing exchange with concrete course, project or infrastructure design. They show that Architecting can reproduce and improve the existing system.",
+    "exceptions": [
+      {
+        "id": "R03-Q02",
+        "rationale": "Dator secondary: Discipline. Proposes partner universities co-developing and hosting courses: a concrete design at partnership scale, still aspirational."
+      },
+      {
+        "id": "R09-Q03",
+        "rationale": "Dator secondary: Discipline. AREAS secondary: Shaped. Reports embedding small elements on their own initiative, while sustained collaboration depends on university resources. Local design coexists with being shaped by funding."
+      },
+      {
+        "id": "R11-Q03",
+        "rationale": "AREAS secondary: Shaped. Reports institutional incentives and a completed EDDA camp, but says barriers remain. Institutions can organise local opportunities without removing students’ constraints."
+      }
+    ],
+    "scope": {
+      "Proposed": 4,
+      "Mixed": 2
+    },
+    "caveat": "Recurring means at least two answers, not two independent institutions. Proposed action does not show implementation capacity; this threshold is descriptive, not statistical."
+  },
+  {
+    "title": "Discipline + Architecting",
+    "count": 8,
+    "ids": [
+      "R01-Q03",
+      "R02-Q03",
+      "R04-Q03",
+      "R06-Q03",
+      "R07-Q03",
+      "R08-Q02",
+      "R08-Q03",
+      "R10-Q02"
+    ],
+    "themes": [
+      {
+        "theme": "Protected time",
+        "count": 5
+      },
+      {
+        "theme": "Administrative support",
+        "count": 4
+      },
+      {
+        "theme": "Coordination",
+        "count": 3
+      },
+      {
+        "theme": "Curriculum integration",
+        "count": 3
+      },
+      {
+        "theme": "Partnerships",
+        "count": 3
+      },
+      {
+        "theme": "Credit recognition",
+        "count": 1
+      },
+      {
+        "theme": "Funding",
+        "count": 1
+      },
+      {
+        "theme": "Leadership",
+        "count": 1
+      },
+      {
+        "theme": "Mobility",
+        "count": 1
+      },
+      {
+        "theme": "Shared rules",
+        "count": 1
+      }
+    ],
+    "quotations": [
+      {
+        "id": "R01-Q03",
+        "quote": "time within our studies and work commitments"
+      },
+      {
+        "id": "R02-Q03",
+        "quote": "give teachers/researchers time in their schedule"
+      }
+    ],
+    "description": "8 answers combine Discipline as their dominant future orientation with Architecting as their primary action position.",
+    "interpretation": "These answers locate change in coordinated provision: workload, staffing, schedules or curriculum rules. Designing participation conditions matters more here than predicting a radically new university.",
+    "exceptions": [
+      {
+        "id": "R01-Q03",
+        "rationale": "Dator secondary: Continued Growth. Proposes arranging workload time for courses and meetings. This is proposed local coordination, not evidence that it has been secured."
+      },
+      {
+        "id": "R02-Q03",
+        "rationale": "Dator secondary: Continued Growth. Proposes supporting structures and workload allocation. Institutional authority to implement them is not demonstrated."
+      },
+      {
+        "id": "R08-Q02",
+        "rationale": "Dator secondary: Continued Growth. Specifies coordinator and partner-institution actions for registration, integration and credit recognition. Detailed design is not proof of implementation."
+      },
+      {
+        "id": "R10-Q02",
+        "rationale": "Dator secondary: Continued Growth. Proposes an annual schedule and a dedicated employee role at unit scale. It does not establish that either is funded."
+      }
+    ],
+    "scope": {
+      "Proposed": 8
+    },
+    "caveat": "Recurring means at least two answers, not two independent institutions. Proposed action does not show implementation capacity; this threshold is descriptive, not statistical."
+  }
+]
