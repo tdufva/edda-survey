@@ -5,8 +5,20 @@ export const SORT_ARCHETYPES = [
   'Discipline',
   'Transformation',
 ] as const;
-export type Archetype = (typeof SORT_ARCHETYPES)[number];
-export type Board = Record<Archetype, string[]>;
+export const SORT_POSITIONS = [
+  'Architecting',
+  'Resisting',
+  'Exploiting',
+  'Avoiding',
+  'Shaped',
+] as const;
+export type Framework = 'dator' | 'areas';
+export type Archetype =
+  | (typeof SORT_ARCHETYPES)[number]
+  | (typeof SORT_POSITIONS)[number];
+export type Board = Record<string, string[]>;
+export const categories = (framework: Framework) =>
+  framework === 'areas' ? SORT_POSITIONS : SORT_ARCHETYPES;
 export const sourceCards = survey.respondents.flatMap((r) =>
   r.answers.map((text, i) => ({
     id: `R${r.id}-Q${String(i + 1).padStart(2, '0')}`,
@@ -15,14 +27,14 @@ export const sourceCards = survey.respondents.flatMap((r) =>
     text,
   })),
 );
-export const emptyBoard = (): Board => ({
-  'Continued Growth': [],
-  Collapse: [],
-  Discipline: [],
-  Transformation: [],
-});
+export const emptyBoard = (framework: Framework = 'dator'): Board =>
+  Object.fromEntries(categories(framework).map((a) => [a, []]));
 export function addCard(board: Board, archetype: Archetype, id: string): Board {
-  if (!sourceCards.some((c) => c.id === id) || board[archetype].includes(id))
+  if (
+    !board[archetype] ||
+    !sourceCards.some((c) => c.id === id) ||
+    board[archetype].includes(id)
+  )
     return board;
   return { ...board, [archetype]: [...board[archetype], id] };
 }
@@ -33,10 +45,10 @@ export function removeCard(
 ): Board {
   return { ...board, [archetype]: board[archetype].filter((x) => x !== id) };
 }
-export function exportBoard(board: Board) {
+export function exportBoard(board: Board, framework: Framework = 'dator') {
   return JSON.stringify(
     {
-      format: 'edda-dator-sorting',
+      format: `edda-${framework}-sorting`,
       version: 1,
       snapshot: survey.refreshed_at,
       source: sourceCards,
@@ -47,17 +59,23 @@ export function exportBoard(board: Board) {
     2,
   );
 }
-export function importBoard(text: string): Board {
+export function importBoard(
+  text: string,
+  framework: Framework = 'dator',
+): Board {
   const file = JSON.parse(text);
   if (
-    file.format !== 'edda-dator-sorting' ||
+    !file ||
+    file.format !== `edda-${framework}-sorting` ||
     file.version !== 1 ||
     file.snapshot !== survey.refreshed_at ||
     JSON.stringify(file.source) !== JSON.stringify(sourceCards)
   )
-    throw new Error('This file does not match this survey snapshot.');
-  const result = emptyBoard();
-  for (const a of SORT_ARCHETYPES) {
+    throw new Error(
+      `Open a ${framework.toUpperCase()} sorting file for this survey snapshot.`,
+    );
+  const result = emptyBoard(framework);
+  for (const a of categories(framework)) {
     const ids = file.placements?.[a];
     if (
       !Array.isArray(ids) ||

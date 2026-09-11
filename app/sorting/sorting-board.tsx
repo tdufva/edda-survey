@@ -4,7 +4,8 @@ import Link from 'next/link';
 import { GripVertical, Plus, X, Undo2, Download } from 'lucide-react';
 import survey from '../../analysis/survey.json';
 import {
-  SORT_ARCHETYPES,
+  categories,
+  type Framework,
   sourceCards,
   addCard,
   removeCard,
@@ -20,9 +21,27 @@ const descriptions: Record<Archetype, string> = {
   Collapse: 'Deterioration, fragmentation or breakdown.',
   Discipline: 'Shared rules, coordination or deliberate limits.',
   Transformation: 'A fundamental change in the logic of the system.',
+  Architecting:
+    'Creating rules, infrastructure or arrangements that direct change.',
+  Resisting: 'Actively opposing, slowing or reversing change.',
+  Exploiting:
+    'Using opportunities created by gaps or friction between systems.',
+  Avoiding: 'Bypassing change through parallel or alternative arrangements.',
+  Shaped:
+    'Adapting within constraints without meaningful control of their direction.',
 };
-export default function SortingBoard() {
-  const { board, change, undo, canUndo, dirty, markSaved } = useSorting();
+export default function SortingBoard({
+  framework = 'dator',
+}: {
+  framework?: Framework;
+}) {
+  const isAreas = framework === 'areas';
+  const title = isAreas ? 'AREAS sorting board' : 'Dator sorting board';
+  const positionWord = isAreas ? 'position' : 'archetype';
+  const boardCategories = categories(framework);
+  const route = isAreas ? '/areas-sorting/' : '/sorting/';
+  const { board, change, undo, canUndo, dirty, markSaved } =
+    useSorting(framework);
   const [selected, setSelected] = useState<string | null>(null),
     [hover, setHover] = useState<Archetype | null>(null),
     [message, setMessage] = useState(''),
@@ -76,12 +95,15 @@ export default function SortingBoard() {
     if (g.moved) {
       const a = target(e.clientX, e.clientY);
       if (a) place(a, g.id);
-      else setMessage('No placement made. Drop the card inside an archetype.');
+      else
+        setMessage(
+          `No placement made. Drop the card inside a ${positionWord}.`,
+        );
     } else setSelected(g.id);
   }
   function readFile(text: string) {
     try {
-      const next = importBoard(text);
+      const next = importBoard(text, framework);
       change(next);
       markSaved();
       setSelected(null);
@@ -115,7 +137,7 @@ export default function SortingBoard() {
           <button
             className="drag-handle"
             aria-label={`Drag or select ${id}`}
-            title="Drag to an archetype, or select then choose Add selected answer"
+            title={`Drag to a ${positionWord}, or select then choose Add selected answer`}
             onPointerDown={(e) => start(e, id)}
             onPointerMove={move}
             onPointerUp={end}
@@ -158,9 +180,11 @@ export default function SortingBoard() {
         )}
         {!archetype && (
           <div className="card-placements">
-            {SORT_ARCHETYPES.filter((a) => board[a].includes(id)).map((a) => (
-              <span key={a}>{a}</span>
-            ))}
+            {boardCategories
+              .filter((a) => board[a].includes(id))
+              .map((a) => (
+                <span key={a}>{a}</span>
+              ))}
           </div>
         )}
         <button
@@ -169,12 +193,12 @@ export default function SortingBoard() {
           onClick={() => {
             setSelected(selected === id ? null : id);
             setMessage(
-              `Select an archetype for ${id} using Add selected answer.`,
+              `Select a ${positionWord} for ${id} using Add selected answer.`,
             );
           }}
         >
           {selected === id
-            ? 'Selected · choose an archetype'
+            ? `Selected · choose a ${positionWord}`
             : 'Select to place'}
         </button>
       </article>
@@ -198,11 +222,12 @@ export default function SortingBoard() {
           ['Interpretive Profiles', '/profiles/'],
           ['Validation', '/validation/'],
           ['Dator sorting board', '/sorting/'],
+          ['AREAS sorting board', '/areas-sorting/'],
         ].map(([label, path]) => (
           <Link
             key={path}
             href={path}
-            aria-current={path === '/sorting/' ? 'page' : undefined}
+            aria-current={path === route ? 'page' : undefined}
           >
             {label}
           </Link>
@@ -214,17 +239,30 @@ export default function SortingBoard() {
             Manual interpretation · {survey.respondents.length} respondents ·{' '}
             {sourceCards.length} answers
           </div>
-          <h1>Dator sorting board</h1>
+          <h1>{title}</h1>
           <p>
-            Drag each answer into one or more archetypes. Source cards stay in
+            Drag each answer into one or more{' '}
+            {isAreas ? 'AREAS positions' : 'archetypes'}. Source cards stay in
             place, so you can use the same answer again. This board starts empty
-            and keeps your sorting separate from the existing AI coding.
+            and keeps your sorting separate from the existing AI coding and the
+            other sorting board.
           </p>
+          {isAreas && (
+            <p className="fine-print">
+              Place evidence of what actors do, rather than their identity or
+              wishes. “Shaped” describes constrained agency. A proposal is not
+              proof of action; leave an answer unplaced if the evidence is
+              insufficient.
+            </p>
+          )}
         </div>
         <div className="sort-tools">
           <button
             onClick={() => {
-              download('edda-dator-sorting.json', exportBoard(board));
+              download(
+                `edda-${framework}-sorting.json`,
+                exportBoard(board, framework),
+              );
               markSaved();
               setMessage(
                 'Arrangement downloaded. Keep this file to resume later.',
@@ -244,7 +282,7 @@ export default function SortingBoard() {
                 if (file) {
                   try {
                     const text = await file.text();
-                    importBoard(text);
+                    importBoard(text, framework);
                     if (dirty) setReplaceFile(text);
                     else readFile(text);
                   } catch (error) {
@@ -271,7 +309,7 @@ export default function SortingBoard() {
           <button
             disabled={!assigned.size}
             onClick={() => {
-              change(emptyBoard());
+              change(emptyBoard(framework));
               setMessage('Board cleared. Use Undo to restore it.');
             }}
           >
@@ -306,7 +344,7 @@ export default function SortingBoard() {
       <div className="sort-announcement">
         <output aria-live="polite">
           {message ||
-            'Drag a card, or select it and use “Add selected answer” in an archetype.'}
+            `Drag a card, or select it and use “Add selected answer” in a ${positionWord}.`}
         </output>
         {selected && (
           <button onClick={() => setSelected(null)}>
@@ -338,13 +376,19 @@ export default function SortingBoard() {
           className="archetype-panel"
           aria-labelledby="archetype-heading"
         >
-          <h2 id="archetype-heading">Four futures · your interpretation</h2>
+          <h2 id="archetype-heading">
+            {isAreas
+              ? 'Five positions · your interpretation'
+              : 'Four futures · your interpretation'}
+          </h2>
           <p className="fine-print">
-            A card can appear once in each archetype. Removing one placement
-            leaves its other placements intact.
+            A card can appear once in each {positionWord}. Removing one
+            placement leaves its other placements intact.
           </p>
-          <div className="archetype-grid">
-            {SORT_ARCHETYPES.map((a, i) => (
+          <div
+            className={`archetype-grid ${isAreas ? 'areas-sorting-grid' : ''}`}
+          >
+            {boardCategories.map((a, i) => (
               <section
                 key={a}
                 data-archetype={a}
@@ -399,7 +443,7 @@ export default function SortingBoard() {
       {dragging && (
         <div className="drag-notice" aria-live="polite">
           Moving a copy of {dragging}
-          {hover ? ` → ${hover}` : ' · drop into an archetype'}
+          {hover ? ` → ${hover}` : ` · drop into a ${positionWord}`}
         </div>
       )}
     </main>

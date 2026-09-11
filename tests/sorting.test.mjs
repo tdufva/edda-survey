@@ -22,3 +22,18 @@ test('saving and reopening preserves hybrids and rejects altered survey or inval
  for(const mutate of [f=>f.source[0].text='edited',f=>f.placements.Collapse=['unknown'],f=>f.placements.Discipline=['R03-Q02','R03-Q02'],f=>f.snapshot='wrong']){
  const f=JSON.parse(exportBoard(board));mutate(f);assert.throws(()=>importBoard(JSON.stringify(f)));}
 });
+
+test('AREAS starts with five empty positions and supports multiple placements',()=>{
+ const blank=emptyBoard('areas');assert.deepEqual(Object.keys(blank),['Architecting','Resisting','Exploiting','Avoiding','Shaped']);assert.ok(Object.values(blank).every(x=>x.length===0));
+ const board=addCard(addCard(blank,'Architecting','R09-Q03'),'Shaped','R09-Q03');
+ assert.deepEqual(board.Architecting,['R09-Q03']);assert.deepEqual(board.Shaped,['R09-Q03']);
+ assert.equal(addCard(board,'Shaped','R09-Q03'),board);
+ assert.deepEqual(removeCard(board,'Architecting','R09-Q03').Shaped,['R09-Q03']);
+ assert.deepEqual(blank.Architecting,[]);
+});
+test('AREAS files round-trip and are rejected by the Dator board, and vice versa',()=>{
+ const areas=addCard(emptyBoard('areas'),'Shaped','R01-Q01');
+ const text=exportBoard(areas,'areas');assert.deepEqual(importBoard(text,'areas'),areas);
+ assert.throws(()=>importBoard(text));assert.throws(()=>importBoard(exportBoard(emptyBoard()),'areas'));
+ assert.deepEqual(Object.keys(importBoard(exportBoard(emptyBoard()))),['Continued Growth','Collapse','Discipline','Transformation']);
+});

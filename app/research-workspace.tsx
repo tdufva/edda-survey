@@ -33,6 +33,7 @@ const tabs = [
   ['Interpretive Profiles', '/profiles/'],
   ['Validation', '/validation/'],
   ['Dator sorting board', '/sorting/'],
+  ['AREAS sorting board', '/areas-sorting/'],
 ];
 const definitions: Record<string, string> = {
   'Continued Growth': 'Existing institutions and practices expand or improve.',

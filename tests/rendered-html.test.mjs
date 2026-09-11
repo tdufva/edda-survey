@@ -59,3 +59,12 @@ test('sorting board renders all source cards with four initially empty drop area
  assert.ok(page.includes('Open arrangement'));
  assert.ok(page.includes('/edda-survey/sorting/'));
 });
+
+test('AREAS sorting board has five empty positions and all original source cards',async()=>{
+ const page=(await readFile(new URL('../out/areas-sorting/index.html',import.meta.url),'utf8')).replaceAll('<!-- -->','');
+ assert.equal((page.match(/draggable="true"/g)||[]).length,33);
+ assert.equal((page.match(/data-archetype=/g)||[]).length,5);
+ assert.equal((page.match(/Drop answers here/g)||[]).length,5);
+ for(const position of ['Architecting','Resisting','Exploiting','Avoiding','Shaped'])assert.ok(page.includes(`data-archetype="${position}"`));
+ assert.ok(page.includes('0/33 answers placed'));assert.ok(page.includes('AREAS sorting board'));assert.ok(page.includes('/edda-survey/areas-sorting/'));
+});

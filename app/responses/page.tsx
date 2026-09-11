@@ -32,7 +32,7 @@ export default function ResponsesPage() {
         </Link>
         <nav aria-label="Response page navigation">
           <Link href="/"><ArrowLeft size={15} aria-hidden="true" /> Analysis</Link>
-          <Link href="/areas/">AREAS</Link><Link href="/dator/">Dator</Link><Link href="/comparison/">Comparison</Link><Link href="/sorting/">Sorting board</Link>
+          <Link href="/areas/">AREAS</Link><Link href="/dator/">Dator</Link><Link href="/comparison/">Comparison</Link><Link href="/sorting/">Dator sorting</Link><Link href="/areas-sorting/">AREAS sorting</Link>
         </nav>
       </header>
 

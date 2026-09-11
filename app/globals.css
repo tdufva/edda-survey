@@ -615,3 +615,6 @@ footer > p { text-align: right; }
 .drag-notice {position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--ink);color:white;padding:12px 18px;border-radius:5px;z-index:50;pointer-events:none;font-size:13px;box-shadow:0 3px 14px #0003}
 @media(max-width:1100px){.sorting-layout{grid-template-columns:1fr}.source-scroll{max-height:450px;min-height:250px}.archetype-panel{position:relative}.lane-cards{max-height:300px}.sort-heading{flex-direction:column;gap:12px}.sort-tools{max-width:none}.sort-heading h1{font-size:36px}}
 @media(max-width:550px){.respondent-card-grid{grid-template-columns:1fr}.sort-card p{font-size:14px}.archetype-grid{gap:8px}.archetype-lane{padding:9px}.lane-heading h3{font-size:13px}.sort-tools{flex-wrap:wrap}.lane-description{min-height:50px}.source-scroll{max-height:350px}.sort-status{gap:6px}.sort-announcement{flex-direction:column;align-items:start}.drag-notice{width:90%}}
+
+.archetype-lane.lane-4 {background:#e8e5dc;border-color:#8a8069}
+.areas-sorting-grid .archetype-lane:last-child {grid-column:1 / -1}
