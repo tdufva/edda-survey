@@ -10,6 +10,7 @@ An integrated thematic, AREAS and Jim Dator Four Futures analysis of the EDDA in
 - `/dator/`: independent answer-level future coding, primary/secondary distributions, question comparisons, meaning units and co-occurrence.
 - `/comparison/`: interactive 4 × 5 matrix, primary versus secondary matches, source inspection and interpretive tensions.
 - `/profiles/`: recurring profiles supported by at least two primary-primary answer matches.
+- `/sorting/`: an initially empty manual Dator board, with respondent-grouped source cards, drag-to-copy across archetypes, keyboard/touch selection, removal, undo, and independent save/open arrangement files. It never changes the existing AI/researcher coding.
 - `/validation/`: editable researcher coding with immutable original text and AI baseline.
 
 The source uses **Shaped**, not “Shaping.” No pre-existing AREAS results were present in this repository. `analysis/coding.json` records the initial AI interpretive pass once and is reused by all framework views. It is not a keyword classifier or an automatically executing LLM service. New data needs a new interpretive coding pass; nothing is silently classified on page load.

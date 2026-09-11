@@ -227,7 +227,7 @@ export default function Home() {
           <a href="#findings">Findings</a>
           <a href="#method">Method</a>
           <a href="#next">Next steps</a>
-          <Link href="/responses/">All responses</Link><Link href="/areas/">AREAS</Link><Link href="/dator/">Dator</Link><Link href="/comparison/">Comparison</Link>
+          <Link href="/responses/">All responses</Link><Link href="/areas/">AREAS</Link><Link href="/dator/">Dator</Link><Link href="/comparison/">Comparison</Link><Link href="/sorting/">Sorting board</Link>
         </nav>
       </header>
 

@@ -32,6 +32,7 @@ const tabs = [
   ['Dator × AREAS Matrix', '/comparison/'],
   ['Interpretive Profiles', '/profiles/'],
   ['Validation', '/validation/'],
+  ['Dator sorting board', '/sorting/'],
 ];
 const definitions: Record<string, string> = {
   'Continued Growth': 'Existing institutions and practices expand or improve.',

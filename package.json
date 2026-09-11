@@ -13,7 +13,7 @@
     "start": "wrangler dev --config dist/server/wrangler.json",
     "lint": "oxlint app",
     "format": "oxfmt",
-    "test:analysis": "node --test tests/analysis.test.mjs"
+    "test:analysis": "node --test tests/analysis.test.mjs tests/sorting.test.mjs"
   },
   "dependencies": {
     "react": "19.2.6",
